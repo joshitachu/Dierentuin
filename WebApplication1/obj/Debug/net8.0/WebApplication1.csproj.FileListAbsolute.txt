@@ -169,3 +169,4 @@
 /Users/joshuakabel/Documents/Source/Repos/WebApplication1/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb
 /Users/joshuakabel/Documents/Source/Repos/WebApplication1/WebApplication1/obj/Debug/net8.0/WebApplication1.genruntimeconfig.cache
 /Users/joshuakabel/Documents/Source/Repos/WebApplication1/WebApplication1/obj/Debug/net8.0/ref/WebApplication1.dll
+/Users/joshuakabel/Documents/Source/Repos/WebApplication1/WebApplication1/obj/Debug/net8.0/WebApplication1.sourcelink.json
