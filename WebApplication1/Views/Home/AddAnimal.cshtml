@@ -1,0 +1,19 @@
+﻿@model WebApplication1.Models.Animal
+
+<h2>Nieuw Dier Toevoegen</h2>
+
+<form method="post">
+    <div>
+        <label for="Name">Naam:</label>
+        <input type="text" id="Name" name="Name" value="@Model.Name" required />
+    </div>
+    <div>
+        <label for="species">Soort:</label>
+        <input type="text" id="species" name="species" value="@Model.species" required />
+    </div>
+    <div>
+        <label for="prey">Prooi:</label>
+        <input type="text" id="prey" name="prey" value="@Model.prey" />
+    </div>
+    <button type="submit">Voeg Dier Toe</button>
+</form>

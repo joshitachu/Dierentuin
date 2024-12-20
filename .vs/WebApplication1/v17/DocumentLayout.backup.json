@@ -83,7 +83,8 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T12:10:42.605Z"
+              "WhenOpened": "2024-12-20T12:10:42.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,7 +96,8 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\AddAnimal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T12:09:48.328Z"
+              "WhenOpened": "2024-12-20T12:09:48.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,7 +109,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:54.897Z"
+              "WhenOpened": "2024-12-20T11:57:54.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -119,7 +122,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:53.035Z"
+              "WhenOpened": "2024-12-20T11:57:53.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,7 +135,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\Enclosure.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:51.254Z"
+              "WhenOpened": "2024-12-20T11:57:51.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -143,7 +148,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:48.851Z"
+              "WhenOpened": "2024-12-20T11:57:48.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,7 +161,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\Zoo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:57:47.353Z"
+              "WhenOpened": "2024-12-20T11:57:47.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -167,7 +174,8 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAADwvz4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:55:52.851Z"
+              "WhenOpened": "2024-12-20T11:55:52.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -179,7 +187,8 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:55:28.623Z"
+              "WhenOpened": "2024-12-20T11:55:28.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -191,7 +200,8 @@
               "RelativeToolTip": "WebApplication1\\Data\\ZooDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:54:52.297Z"
+              "WhenOpened": "2024-12-20T11:54:52.297Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,28 +1,11 @@
-namespace WebApplication1.Models;
-
-public class Category
+namespace WebApplication1.Models
 {
-    
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public Animal animal { get; set; }
-
-    public enum Climate
+    public class Category
     {
-        Tropical, Temperate, Arcti
-    }
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-    [Flags]
-    public enum HabitatType
-    {
-        Forest, Aquatic, Desert, Grassland
+        // Navigatie-eigenschap naar Animal (een Category heeft één Animal)
+        public Animal animal { get; set; }
     }
-
-    public enum SecurityLevel
-    {
-        Low, Medium, High
-    }
-    
-    public double size { get; set; }    
-  
 }
