@@ -27,17 +27,21 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        [HttpPost]
+       
+       [HttpPost]
         public IActionResult AddAnimal(Animal animal)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) // Check if the submitted model is valid
             {
-                _context.Animals.Add(animal);
-                _context.SaveChanges(); // Sla de wijzigingen op in de database
-                return RedirectToAction("Index"); // Ga terug naar de Index-pagina
+                _context.Animals.Add(animal); // Add the new animal to the database
+                _context.SaveChanges(); // Save the changes to the database
+                return RedirectToAction("Index"); // Redirect back to the Index page
             }
+            
+            // If the model is invalid, re-render the view with the submitted data
             return View(animal);
         }
+
 
         public IActionResult Privacy()
         {
@@ -49,5 +53,7 @@ namespace WebApplication1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+    
     }
 }

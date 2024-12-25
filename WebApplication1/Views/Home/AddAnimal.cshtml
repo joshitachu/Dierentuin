@@ -2,18 +2,18 @@
 
 <h2>Nieuw Dier Toevoegen</h2>
 
-<form method="post">
+<form method="post" action="/Home/AddAnimal">
     <div>
         <label for="Name">Naam:</label>
-        <input type="text" id="Name" name="Name" value="@Model.Name" required />
+        <input type="text" id="Name" name="Name" value="@Model?.Name " required />
     </div>
     <div>
         <label for="species">Soort:</label>
-        <input type="text" id="species" name="species" value="@Model.species" required />
+        <input type="text" id="species" name="species" value="@Model?.species " required />
     </div>
     <div>
         <label for="prey">Prooi:</label>
-        <input type="text" id="prey" name="prey" value="@Model.prey" />
+        <input type="text" id="prey" name="prey" value="@Model?.prey" />
     </div>
     <button type="submit">Voeg Dier Toe</button>
 </form>

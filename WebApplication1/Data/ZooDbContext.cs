@@ -1,13 +1,18 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
 
-using Micusing Microsoft.EntityFrameworkCore;
-using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
     public class ZooDbContext : DbContext
     {
+
+        public ZooDbContext(DbContextOptions<ZooDbContext> options)
+                : base(options)
+        {
+            
+        }
+        
         private string connectionString = "Server=(localdb)\\mssqllocaldb;Database=Dierentuin1;Trusted_Connection=True;MultipleActiveResultSets=true";
 
         public DbSet<Animal> Animals { get; set; }
