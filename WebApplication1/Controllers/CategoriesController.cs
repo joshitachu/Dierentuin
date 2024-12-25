@@ -52,27 +52,25 @@ namespace WebApplication1.Controllers
         // POST: Categories/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Category category)
+       [HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> Create([Bind("Id,Name")] Category category)
+{
+    if (!ModelState.IsValid)
+    {
+        // Log all validation errors
+        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
         {
-            if (ModelState.IsValid)
-            {
-                Console.WriteLine($"Adding category: {category.Name}");
-
-                _context.Add(category);
-                await _context.SaveChangesAsync();
-
-                Console.WriteLine("Category saved successfully.");
-                ViewBag.Message = "test";
-
-
-                return RedirectToAction(nameof(Index));
-            }
-
-            Console.WriteLine("ModelState is invalid.");
-            return View(category);
+            Console.WriteLine($"Validation Error: {error.ErrorMessage}");
         }
+        return View(category);
+    }
+
+    _context.Add(category);
+    await _context.SaveChangesAsync();
+    return RedirectToAction(nameof(Index));
+}
+
 
         // GET: Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)

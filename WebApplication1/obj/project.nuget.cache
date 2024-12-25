@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+d+j/0MfYGSqp7DPecHzWL2r2oMlb0I8oHqqdUhQM9v6r4UPrTCx0lsLNqiHzRDFjAHGY56tBgySptqJ53aQ6w==",
+  "dgSpecHash": "DeVaug7d+xlpVZP5BWZ3S2/qhPHzuLdvKRcq4r9R20G3/uJhp4Tq1VmzuL66zwPJQ93tsLB6plC4QkbgSnu2cw==",
   "success": true,
-  "projectFilePath": "C:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "c:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joshua\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Joshua\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
