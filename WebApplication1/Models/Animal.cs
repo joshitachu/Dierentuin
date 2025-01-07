@@ -5,7 +5,7 @@ namespace WebApplication1.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string species { get; set; }
-        public Category category { get; set; }
+        public Category? category { get; set; }
 
         public int CategoryId { get; set; }  // Dit is de foreign key
 
@@ -26,6 +26,7 @@ namespace WebApplication1.Models
 
         public string prey { get; set; }
 
-        public Enclosure enclosure { get; set; }
+        public int? EnclosureId { get; set; }
+    public Enclosure? enclosure { get; set; }
     }
 }

@@ -46,52 +46,71 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Animals/Create
-        public IActionResult Create()
-        {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id");
-            return View();
-        }
+public IActionResult Create()
+{
+    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name"); // Populate categories
+    ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name"); // Populate enclosures
+    return View();
+}
 
-        // POST: Animals/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-       [HttpPost]
+
+[HttpPost]
 [ValidateAntiForgeryToken]
-public async Task<IActionResult> Create([Bind("Id,Name,species,CategoryId,prey")] Animal animal)
+public async Task<IActionResult> Create(Animal animal)
 {
     try
     {
+        Console.WriteLine($"Attempting to create an animal: Name={animal.Name}, Species={animal.species}, Prey={animal.prey}, CategoryId={animal.CategoryId}");
+
+        // Fetch the Category object
+        animal.category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == animal.CategoryId);
+        if (animal.category == null)
+        {
+            ModelState.AddModelError("CategoryId", "Invalid category selected.");
+        }
+
+        // Assign a default Enclosure if not provided
+        if (!animal.EnclosureId.HasValue)
+        {
+            var defaultEnclosure = await _context.Enclosures.FirstOrDefaultAsync();
+            if (defaultEnclosure == null)
+            {
+                ModelState.AddModelError("EnclosureId", "No default enclosure available.");
+            }
+            else
+            {
+                animal.EnclosureId = defaultEnclosure.Id;
+                animal.enclosure = defaultEnclosure;
+            }
+        }
+
         if (ModelState.IsValid)
         {
             _context.Add(animal);
             await _context.SaveChangesAsync();
-
-            ViewBag.Message = "Animal created successfully.";
             return RedirectToAction(nameof(Index));
         }
 
-        // Log validation errors
         foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
         {
             Console.WriteLine($"Validation Error: {error.ErrorMessage}");
         }
-
-        ViewBag.Message = "Animal creation failed due to validation errors.";
     }
     catch (Exception ex)
     {
-        // Log exception details
-        Console.WriteLine($"Exception occurred: {ex.Message}");
-        Console.WriteLine($"Stack Trace: {ex.StackTrace}");
-
-        // Optionally add a user-friendly message
-        ViewBag.Message = "An unexpected error occurred while creating the animal. Please try again.";
+        Console.WriteLine($"Exception: {ex.Message}");
     }
 
-    // Re-populate the CategoryId dropdown
-    ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", animal.CategoryId);
+    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
+    ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
     return View(animal);
 }
+
+
+
+
+
+
 
         // GET: Animals/Edit/5
         public async Task<IActionResult> Edit(int? id)
