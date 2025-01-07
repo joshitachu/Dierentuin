@@ -6,7 +6,7 @@ namespace WebApplication1.Models
         public string Name { get; set; }
 
         // Navigatie-eigenschap naar Animal (een Category heeft ��n Animal)
-              public ICollection<Animal> Animals { get; set; }
+              public ICollection<Animal>? Animals { get; set; }
 
 
     }
