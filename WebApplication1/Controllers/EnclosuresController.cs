@@ -22,7 +22,8 @@ namespace WebApplication1.Controllers
         // GET: Enclosures
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Enclosures.ToListAsync());
+            var enclosures = await _context.Enclosures.Include(e => e.Animals).ToListAsync();
+            return View(enclosures);
         }
 
         // GET: Enclosures/Details/5
@@ -34,7 +35,9 @@ namespace WebApplication1.Controllers
             }
 
             var enclosure = await _context.Enclosures
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(e => e.Animals)
+                .FirstOrDefaultAsync(e => e.Id == id);
+
             if (enclosure == null)
             {
                 return NotFound();
@@ -50,11 +53,9 @@ namespace WebApplication1.Controllers
         }
 
         // POST: Enclosures/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description")] Enclosure enclosure)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Size,Climate,HabitatType,SecurityLevel")] Enclosure enclosure)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +63,7 @@ namespace WebApplication1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(enclosure);
         }
 
@@ -78,15 +80,14 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
+
             return View(enclosure);
         }
 
         // POST: Enclosures/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] Enclosure enclosure)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Size,Climate,HabitatType,SecurityLevel")] Enclosure enclosure)
         {
             if (id != enclosure.Id)
             {
@@ -106,13 +107,13 @@ namespace WebApplication1.Controllers
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+
+                    throw;
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(enclosure);
         }
 
@@ -125,7 +126,9 @@ namespace WebApplication1.Controllers
             }
 
             var enclosure = await _context.Enclosures
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(e => e.Animals)
+                .FirstOrDefaultAsync(e => e.Id == id);
+
             if (enclosure == null)
             {
                 return NotFound();
@@ -143,9 +146,9 @@ namespace WebApplication1.Controllers
             if (enclosure != null)
             {
                 _context.Enclosures.Remove(enclosure);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

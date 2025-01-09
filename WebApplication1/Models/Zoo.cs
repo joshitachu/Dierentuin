@@ -2,11 +2,11 @@ namespace WebApplication1.Models
 {
     public class Zoo
     {
-        public int Id { get; set; }  // Primaire sleutel toegevoegd
+        public int Id { get; set; } // Primary key
 
-        public string Name { get; set; }
-        public string Location { get; set; }
+        public string Name { get; set; } = string.Empty; // Ensure non-nullable strings are initialized
+        public string Location { get; set; } = string.Empty;
 
-        // Andere eigenschappen van Zoo
+        public List<Enclosure> Enclosures { get; set; } = new List<Enclosure>(); // Add relationship to enclosures
     }
 }

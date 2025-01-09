@@ -16,32 +16,67 @@ namespace WebApplication1.Controllers
             _context = context;
         }
 
+        // Home Page: Index
         public IActionResult Index()
         {
-            var animals = _context.Animals.ToList(); // Haal alle dieren op uit de database
-            return View(animals); // Geef de lijst door aan de view
+            var zoo = _context.Zoos.FirstOrDefault();
+
+            if (zoo == null)
+            {
+                ViewBag.ShowForm = true; // Indicate the form should be shown
+                return View(); // Render the view for entering zoo details
+            }
+
+            return View(zoo); // Pass the existing zoo to the view
         }
 
+        // POST: Create Zoo
+        [HttpPost]
+        public IActionResult CreateZoo(string name, string location)
+        {
+            if (_context.Zoos.Any())
+            {
+                return RedirectToAction(nameof(Index)); // Prevent duplicate zoos
+            }
+
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(location))
+            {
+                ModelState.AddModelError("", "Both name and location are required.");
+                ViewBag.ShowForm = true; // Re-show the form with errors
+                return View("Index");
+            }
+
+            var zoo = new Zoo
+            {
+                Name = name,
+                Location = location
+            };
+
+            _context.Zoos.Add(zoo);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // Add Animal Page
         public IActionResult AddAnimal()
         {
             return View();
         }
 
-       
-       [HttpPost]
+        // POST: Add Animal
+        [HttpPost]
         public IActionResult AddAnimal(Animal animal)
         {
-            if (ModelState.IsValid) // Check if the submitted model is valid
+            if (ModelState.IsValid)
             {
-                _context.Animals.Add(animal); // Add the new animal to the database
-                _context.SaveChanges(); // Save the changes to the database
-                return RedirectToAction("Index"); // Redirect back to the Index page
+                _context.Animals.Add(animal);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
             }
-            
-            // If the model is invalid, re-render the view with the submitted data
+
             return View(animal);
         }
-
 
         public IActionResult Privacy()
         {
@@ -53,7 +88,5 @@ namespace WebApplication1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-    
     }
 }

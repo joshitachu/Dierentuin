@@ -1,22 +1,68 @@
-﻿@model List<WebApplication1.Models.Animal>
+﻿@{
+    ViewData["Title"] = "Zoo Management";
+}
 
-<h2>Dierenlijst</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Naam</th>
-            <th>Soort</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var animal in Model)
-        {
-            <tr>
-                <td>@animal.Name</td>
-                <td>@animal.species</td>
-            </tr>
-        }
-    </tbody>
-</table>
+@if (ViewBag.ShowForm == true)
+{
+    <h1>Welcome to Your New Zoo</h1>
+    <p>Please enter your Zoo name and location to get started:</p>
 
-<a href="/Home/AddAnimal">Nieuw Dier Toevoegen</a>
+    <form method="post" action="/Home/CreateZoo">
+        <div>
+            <label for="Name">Zoo Name:</label>
+            <input type="text" id="Name" name="name" required />
+        </div>
+        <div>
+            <label for="Location">Location:</label>
+            <input type="text" id="Location" name="location" required />
+        </div>
+        <button type="submit">Create Zoo</button>
+    </form>
+}
+else
+{
+      <h1>Welcome to @Model.Name</h1>
+    <p>Location: @Model.Location</p>
+<div>
+    <h2>What would you like to do?</h2>
+    <div style="display: flex; flex-direction: column; gap: 10px; max-width: 300px;">
+        <button onclick="window.location.href='/Animals/Create'" style="width: 100%; padding: 10px;">
+            Add a new animal
+        </button>
+        <button onclick="window.location.href='/Animals/Index'" style="width: 100%; padding: 10px;">
+            View and manage all animals
+        </button>
+        <button onclick="window.location.href='/Categories/Index'" style="width: 100%; padding: 10px;">
+            Manage categories
+        </button>
+        <button onclick="window.location.href='/Enclosures/Index'" style="width: 100%; padding: 10px;">
+            Organize enclosures
+        </button>
+        <button onclick="window.location.href='/Zoos/Sunrise'" style="width: 100%; padding: 10px;">
+            Perform sunrise action
+        </button>
+        <button onclick="window.location.href='/Zoos/Sunset'" style="width: 100%; padding: 10px;">
+            Perform sunset action
+        </button>
+        <button onclick="window.location.href='/Zoos/FeedingTime'" style="width: 100%; padding: 10px;">
+            Perform feeding time action
+        </button>
+        <button onclick="window.location.href='/Zoos/CheckConstraints'" style="width: 100%; padding: 10px;">
+            Check enclosure constraints
+        </button>
+    </div>
+</div>
+
+<div style="margin-top: 20px;">
+    <h3>Zoo Overview:</h3>
+    <p>
+        Here are the key statistics for your zoo:
+    </p>
+    <ul>
+        @* <li>Total animals: @Model.Animals.Count</li>
+        <li>Number of categories: @Model.Animals.Select(a => a.Category).Distinct().Count()</li>
+        <li>Number of enclosures: @Model.Animals.Select(a => a.Enclosure).Distinct().Count()</li> *@
+    </ul>
+</div>
+
+}

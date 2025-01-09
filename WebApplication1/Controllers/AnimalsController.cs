@@ -22,8 +22,8 @@ namespace WebApplication1.Controllers
         // GET: Animals
         public async Task<IActionResult> Index()
         {
-            var zooDbContext = _context.Animals.Include(a => a.category);
-            return View(await zooDbContext.ToListAsync());
+            var animals = _context.Animals.Include(a => a.Category);
+            return View(await animals.ToListAsync());
         }
 
         // GET: Animals/Details/5
@@ -35,8 +35,9 @@ namespace WebApplication1.Controllers
             }
 
             var animal = await _context.Animals
-                .Include(a => a.category)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(a => a.Category)
+                .FirstOrDefaultAsync(a => a.Id == id);
+
             if (animal == null)
             {
                 return NotFound();
@@ -46,71 +47,63 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Animals/Create
-public IActionResult Create()
-{
-    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name"); // Populate categories
-    ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name"); // Populate enclosures
-    return View();
-}
-
-
-[HttpPost]
-[ValidateAntiForgeryToken]
-public async Task<IActionResult> Create(Animal animal)
-{
-    try
-    {
-        Console.WriteLine($"Attempting to create an animal: Name={animal.Name}, Species={animal.species}, Prey={animal.prey}, CategoryId={animal.CategoryId}");
-
-        // Fetch the Category object
-        animal.category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == animal.CategoryId);
-        if (animal.category == null)
+        public IActionResult Create()
         {
-            ModelState.AddModelError("CategoryId", "Invalid category selected.");
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name");
+            ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name");
+            return View();
         }
 
-        // Assign a default Enclosure if not provided
-        if (!animal.EnclosureId.HasValue)
+        // POST: Animals/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Animal animal)
         {
-            var defaultEnclosure = await _context.Enclosures.FirstOrDefaultAsync();
-            if (defaultEnclosure == null)
+            try
             {
-                ModelState.AddModelError("EnclosureId", "No default enclosure available.");
+                Console.WriteLine($"Creating animal: Name={animal.Name}, Species={animal.Species}, Prey={animal.Prey}, CategoryId={animal.CategoryId}");
+
+                animal.Category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == animal.CategoryId);
+                if (animal.Category == null)
+                {
+                    ModelState.AddModelError("CategoryId", "Invalid category selected.");
+                }
+
+                if (!animal.EnclosureId.HasValue)
+                {
+                    var defaultEnclosure = await _context.Enclosures.FirstOrDefaultAsync();
+                    if (defaultEnclosure != null)
+                    {
+                        animal.EnclosureId = defaultEnclosure.Id;
+                        animal.Enclosure = defaultEnclosure;
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("EnclosureId", "No default enclosure available.");
+                    }
+                }
+
+                if (ModelState.IsValid)
+                {
+                    _context.Add(animal);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine($"Validation Error: {error.ErrorMessage}");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                animal.EnclosureId = defaultEnclosure.Id;
-                animal.enclosure = defaultEnclosure;
+                Console.WriteLine($"Exception: {ex.Message}");
             }
+
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
+            ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
+            return View(animal);
         }
-
-        if (ModelState.IsValid)
-        {
-            _context.Add(animal);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
-        {
-            Console.WriteLine($"Validation Error: {error.ErrorMessage}");
-        }
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Exception: {ex.Message}");
-    }
-
-    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
-    ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
-    return View(animal);
-}
-
-
-
-
-
-
 
         // GET: Animals/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -125,16 +118,16 @@ public async Task<IActionResult> Create(Animal animal)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", animal.CategoryId);
+
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
+            ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
             return View(animal);
         }
 
         // POST: Animals/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,species,CategoryId,prey")] Animal animal)
+        public async Task<IActionResult> Edit(int id, Animal animal)
         {
             if (id != animal.Id)
             {
@@ -154,14 +147,13 @@ public async Task<IActionResult> Create(Animal animal)
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", animal.CategoryId);
+
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
+            ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
             return View(animal);
         }
 
@@ -174,8 +166,9 @@ public async Task<IActionResult> Create(Animal animal)
             }
 
             var animal = await _context.Animals
-                .Include(a => a.category)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(a => a.Category)
+                .FirstOrDefaultAsync(a => a.Id == id);
+
             if (animal == null)
             {
                 return NotFound();
@@ -193,15 +186,63 @@ public async Task<IActionResult> Create(Animal animal)
             if (animal != null)
             {
                 _context.Animals.Remove(animal);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AnimalExists(int id)
         {
-            return _context.Animals.Any(e => e.Id == id);
+            return _context.Animals.Any(a => a.Id == id);
+        }
+
+        // Actions: Sunrise
+        public IActionResult Sunrise()
+        {
+            var animals = _context.Animals.ToList();
+
+            foreach (var animal in animals)
+            {
+                switch (animal.activityPattern)
+                {
+                    case Animal.ActivityPattern.Diurnal:
+                        Console.WriteLine($"{animal.Name} wakes up!");
+                        break;
+                    case Animal.ActivityPattern.Nocturnal:
+                        Console.WriteLine($"{animal.Name} goes to sleep.");
+                        break;
+                    default:
+                        Console.WriteLine($"{animal.Name} remains active.");
+                        break;
+                }
+            }
+
+            return Ok("Sunrise action executed for all animals.");
+        }
+
+        // Actions: Sunset
+        public IActionResult Sunset()
+        {
+            var animals = _context.Animals.ToList();
+
+            foreach (var animal in animals)
+            {
+                switch (animal.activityPattern)
+                {
+                    case Animal.ActivityPattern.Nocturnal:
+                        Console.WriteLine($"{animal.Name} wakes up!");
+                        break;
+                    case Animal.ActivityPattern.Diurnal:
+                        Console.WriteLine($"{animal.Name} goes to sleep.");
+                        break;
+                    default:
+                        Console.WriteLine($"{animal.Name} remains active.");
+                        break;
+                }
+            }
+
+            return Ok("Sunset action executed for all animals.");
         }
     }
 }
