@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\dierentuin\Dierentuin\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/dierentuin/Dierentuin/WebApplication1/Views/Animals/ActionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xBY3Rpb25SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/dierentuin/Dierentuin/WebApplication1/Views/Animals/ActionResultList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xBY3Rpb25SZXN1bHRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/dierentuin/Dierentuin/WebApplication1/Views/Animals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/dierentuin/Dierentuin/WebApplication1/Views/Categories/AssignAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBc3NpZ25BbmltYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/dierentuin/Dierentuin/WebApplication1/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +76,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/dierentuin/Dierentuin/WebApplication1/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/dierentuin/Dierentuin/WebApplication1/Views/Enclosures/ActionResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jbG9zdXJlc1xBY3Rpb25SZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/dierentuin/Dierentuin/WebApplication1/Views/Enclosures/AssignAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jbG9zdXJlc1xBc3NpZ25BbmltYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/dierentuin/Dierentuin/WebApplication1/Views/Enclosures/Create.cshtml]

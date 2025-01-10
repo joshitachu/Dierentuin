@@ -1,0 +1,10 @@
+@model string
+
+@{
+    ViewData["Title"] = $"{ViewData["ActionName"]} for {ViewData["AnimalName"]}";
+}
+
+<h1>@ViewData["ActionName"] for @ViewData["AnimalName"]</h1>
+<p>@Model</p>
+
+<a asp-action="Index" class="btn btn-primary">Back to Animals</a>

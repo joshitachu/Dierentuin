@@ -20,11 +20,24 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Animals
-        public async Task<IActionResult> Index()
+       public async Task<IActionResult> Index(string searchTerm)
         {
-            var animals = _context.Animals.Include(a => a.Category);
+            ViewData["SearchTerm"] = searchTerm; // Pass search term back to the view
+
+            var animals = _context.Animals.Include(a => a.Category).AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                animals = animals.Where(a =>
+                    a.Name.Contains(searchTerm) ||
+                    a.Species.Contains(searchTerm) ||
+                    a.Prey.Contains(searchTerm) ||
+                    (a.Category != null && a.Category.Name.Contains(searchTerm)));
+            }
+
             return View(await animals.ToListAsync());
         }
+
 
         // GET: Animals/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -197,52 +210,106 @@ namespace WebApplication1.Controllers
             return _context.Animals.Any(a => a.Id == id);
         }
 
-        // Actions: Sunrise
-        public IActionResult Sunrise()
+       public async Task<IActionResult> Sunrise(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string message = animal.activityPattern switch
+    {
+        Animal.ActivityPattern.Diurnal => $"{animal.Name} wakes up!",
+        Animal.ActivityPattern.Nocturnal => $"{animal.Name} goes to sleep.",
+        _ => $"{animal.Name} remains active."
+    };
+
+    ViewData["ActionName"] = "Sunrise";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", message);
+}
+
+
+// Actions: Sunset for Individual Animal
+public async Task<IActionResult> Sunset(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string message = animal.activityPattern switch
+    {
+        Animal.ActivityPattern.Nocturnal => $"{animal.Name} wakes up!",
+        Animal.ActivityPattern.Diurnal => $"{animal.Name} goes to sleep.",
+        _ => $"{animal.Name} remains active."
+    };
+
+    ViewData["ActionName"] = "Sunset";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", message);
+}
+
+
+// Actions: FeedingTime for Individual Animal
+public async Task<IActionResult> FeedingTime(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string message = !string.IsNullOrEmpty(animal.Prey)
+        ? $"{animal.Name} eats {animal.Prey}."
+        : $"{animal.Name} is fed according to its dietary class: {animal.Diet}.";
+
+    ViewData["ActionName"] = "Feeding Time";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", message);
+}
+
+
+// Actions: CheckConstraints for Individual Animal
+public async Task<IActionResult> CheckConstraints(int id)
+{
+    var animal = await _context.Animals.Include(a => a.Enclosure).FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    List<string> messages = new();
+
+    if (animal.Enclosure == null)
+    {
+        messages.Add($"{animal.Name} is not assigned to any enclosure.");
+    }
+    else
+    {
+        double availableSpace = animal.Enclosure.Size / animal.Enclosure.Animals.Count;
+        if (availableSpace < animal.SpaceRequirement)
         {
-            var animals = _context.Animals.ToList();
-
-            foreach (var animal in animals)
-            {
-                switch (animal.activityPattern)
-                {
-                    case Animal.ActivityPattern.Diurnal:
-                        Console.WriteLine($"{animal.Name} wakes up!");
-                        break;
-                    case Animal.ActivityPattern.Nocturnal:
-                        Console.WriteLine($"{animal.Name} goes to sleep.");
-                        break;
-                    default:
-                        Console.WriteLine($"{animal.Name} remains active.");
-                        break;
-                }
-            }
-
-            return Ok("Sunrise action executed for all animals.");
+            messages.Add($"{animal.Name} has insufficient space in {animal.Enclosure.Name}.");
+        }
+        else
+        {
+            messages.Add($"{animal.Name} has sufficient space in {animal.Enclosure.Name}.");
         }
 
-        // Actions: Sunset
-        public IActionResult Sunset()
+        if ((int)animal.SecurityRequirement > (int)animal.Enclosure.securityLevel)
         {
-            var animals = _context.Animals.ToList();
-
-            foreach (var animal in animals)
-            {
-                switch (animal.activityPattern)
-                {
-                    case Animal.ActivityPattern.Nocturnal:
-                        Console.WriteLine($"{animal.Name} wakes up!");
-                        break;
-                    case Animal.ActivityPattern.Diurnal:
-                        Console.WriteLine($"{animal.Name} goes to sleep.");
-                        break;
-                    default:
-                        Console.WriteLine($"{animal.Name} remains active.");
-                        break;
-                }
-            }
-
-            return Ok("Sunset action executed for all animals.");
+            messages.Add($"{animal.Name} does not meet the security requirements in {animal.Enclosure.Name}.");
         }
+        else
+        {
+            messages.Add($"{animal.Name} meets the security requirements in {animal.Enclosure.Name}.");
+        }
+    }
+
+    ViewData["ActionName"] = "Check Constraints";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResultList", messages);
+}
+
+
     }
 }

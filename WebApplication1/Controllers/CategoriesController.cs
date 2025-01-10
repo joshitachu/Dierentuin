@@ -20,10 +20,23 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Categories
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Categories.ToListAsync());
-        }
+        public async Task<IActionResult> Index(string searchTerm)
+{
+    ViewData["SearchTerm"] = searchTerm;
+
+    IQueryable<Category> categories = _context.Categories;
+
+    if (!string.IsNullOrEmpty(searchTerm))
+    {
+        categories = categories.Where(c => c.Name.Contains(searchTerm));
+    }
+
+    var categoriesWithAnimals = await categories
+        .Include(c => c.Animals) // Include navigation property
+        .ToListAsync();
+
+    return View(categoriesWithAnimals);
+}
 
         // GET: Categories/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -160,5 +173,82 @@ public async Task<IActionResult> Create([Bind("Id,Name")] Category category)
         {
             return _context.Categories.Any(e => e.Id == id);
         }
+
+        // GET: Categories/AssignAnimal/5
+public async Task<IActionResult> AssignAnimal(int? id)
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
+
+    var category = await _context.Categories
+        .Include(c => c.Animals)
+        .FirstOrDefaultAsync(c => c.Id == id);
+
+    if (category == null)
+    {
+        return NotFound();
+    }
+
+    // Get all animals (regardless of current assignment)
+    ViewData["AnimalList"] = new SelectList(_context.Animals, "Id", "Name");
+
+    return View(category);
+}
+
+
+// POST: Categories/AssignAnimal/5
+[HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> AssignAnimal(int id, int? animalId)
+{
+    // Fetch the category
+    var category = await _context.Categories
+        .Include(c => c.Animals)
+        .FirstOrDefaultAsync(c => c.Id == id);
+
+    if (category == null)
+    {
+        return NotFound();
+    }
+
+    // If an animal ID is provided, assign the animal to the category
+    if (animalId.HasValue)
+    {
+        var animal = await _context.Animals.FindAsync(animalId);
+        if (animal == null)
+        {
+            ModelState.AddModelError("AnimalId", "Invalid animal selected.");
+        }
+        else
+        {
+            // Assign the animal to the category
+            animal.CategoryId = id;
+            _context.Update(animal);
+            await _context.SaveChangesAsync();
+        }
+
+        return RedirectToAction(nameof(Details), new { id });
+    }
+
+    // If no animal ID is provided, reload the view with the updated animal list
+    ViewData["AnimalList"] = new SelectList(_context.Animals, "Id", "Name");
+
+    return View(category);
+}
+
+// GET: Categories/Search
+public IActionResult Search(string searchTerm)
+{
+    var categories = _context.Categories
+        .Include(c => c.Animals)
+        .Where(c => string.IsNullOrEmpty(searchTerm) || c.Name.Contains(searchTerm))
+        .ToList();
+
+    return View(categories);
+}
+
+
     }
 }

@@ -1,35 +1,43 @@
 ﻿@model IEnumerable<WebApplication1.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Categories";
 }
 
-<h1>Index</h1>
+<h1>Categories</h1>
+
+<!-- Search Form -->
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <label for="SearchTerm">Search:</label>
+        <input type="text" id="SearchTerm" name="searchTerm" value="@ViewData["SearchTerm"]" class="form-control" placeholder="Search for categories..." />
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </div>
+</form>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Name)</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    <a asp-action="AssignAnimal" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Assign Animals</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

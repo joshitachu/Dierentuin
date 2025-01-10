@@ -1,53 +1,52 @@
 ﻿@model IEnumerable<WebApplication1.Models.Animal>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Animals Index";
 }
 
-<h1>Index</h1>
+<h1>Animals</h1>
+
+<!-- Search Form -->
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <label for="SearchTerm">Search:</label>
+        <input type="text" id="SearchTerm" name="searchTerm" value="@ViewData["SearchTerm"]" class="form-control" placeholder="Enter search term..." />
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </div>
+</form>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Species)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prey)
-            </th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Name)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Species)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Category.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Prey)</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Species)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prey)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Species)</td>
+                <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Prey)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    <button onclick="window.location.href='/Animals/Sunrise/@item.Id'" class="btn btn-warning btn-sm">Sunrise</button>
+                    <button onclick="window.location.href='/Animals/Sunset/@item.Id'" class="btn btn-secondary btn-sm">Sunset</button>
+                    <button onclick="window.location.href='/Animals/FeedingTime/@item.Id'" class="btn btn-success btn-sm">Feeding Time</button>
+                    <button onclick="window.location.href='/Animals/CheckConstraints/@item.Id'" class="btn btn-dark btn-sm">Check Constraints</button>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
