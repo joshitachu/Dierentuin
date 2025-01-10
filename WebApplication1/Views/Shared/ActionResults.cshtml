@@ -1,12 +1,29 @@
 @model IEnumerable<string>
 
-<h1>@ViewData["ActionName"] Results</h1>
+@{
+    //shared service to show results of assigning missing animals
+    ViewData["Title"] = ViewData["ActionName"] ?? "Action Results";
+}
 
-<ul>
-    @foreach (var result in Model)
-    {
-        <li>@result</li>
-    }
-</ul>
+<h1>@ViewData["Title"]</h1>
 
-<a asp-action="Index" class="btn btn-primary">Back to Zoo</a>
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var result in Model)
+        {
+            <li>@result</li>
+        }
+    </ul>
+}
+else
+{
+    <p>There are no animals :(
+
+    </p>
+     <button onclick="window.location.href='/Animals/Create'" style="width: 100%; padding: 10px;">
+            Add a new animal
+        </button>
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to Zoo</a>

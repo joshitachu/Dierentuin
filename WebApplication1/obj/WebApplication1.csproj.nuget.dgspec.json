@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jankn\\Documents\\GitHub\\dierentuin2\\Dierentuin1\\Dierentuin\\WebApplication1\\WebApplication1.csproj": {}
+    "c:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jankn\\Documents\\GitHub\\dierentuin2\\Dierentuin1\\Dierentuin\\WebApplication1\\WebApplication1.csproj": {
+    "c:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jankn\\Documents\\GitHub\\dierentuin2\\Dierentuin1\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "c:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "c:\\Users\\jankn\\Documents\\GitHub\\dierentuin2\\Dierentuin1\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\jankn\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jankn\\Documents\\GitHub\\dierentuin2\\Dierentuin1\\Dierentuin\\WebApplication1\\obj\\",
+        "projectPath": "c:\\dierentuin\\Dierentuin\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
+        "outputPath": "c:\\dierentuin\\Dierentuin\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jankn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,13 +38,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

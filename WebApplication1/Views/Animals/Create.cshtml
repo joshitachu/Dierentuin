@@ -36,7 +36,7 @@
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label">Category</label>
                 <select asp-for="CategoryId" class="form-control" asp-items="@(ViewData["CategoryList"] as IEnumerable<SelectListItem>)">
-                    <option value="">-- Select Category --</option>
+                    <option value="">Unassigned</option>
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
@@ -45,7 +45,7 @@
             <div class="form-group">
                 <label asp-for="EnclosureId" class="control-label">Enclosure</label>
                 <select asp-for="EnclosureId" class="form-control" asp-items="@(ViewData["EnclosureList"] as IEnumerable<SelectListItem>)">
-                    <option value="">-- Select Enclosure --</option>
+                    <option value="">Unassigned</option>
                 </select>
                 <span asp-validation-for="EnclosureId" class="text-danger"></span>
             </div>

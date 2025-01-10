@@ -20,3 +20,33 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Simple Button Styling */
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px;
+  text-decoration: none; /* Remove underline for links */
+  font-size: 14px;
+  color: #333; /* Dark text color */
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Hover Effect */
+.btn:hover {
+  background-color: #e0e0e0; /* Slightly darker gray */
+  color: #000; /* Darker text */
+}
+
+/* Container for Button Alignment */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Wrap buttons if they overflow */
+  gap: 10px; /* Space between buttons */
+  justify-content: start; /* Align buttons to the left */
+  padding: 10px;
+}

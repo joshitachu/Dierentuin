@@ -34,12 +34,15 @@ namespace WebApplication1.Controllers
         {
             case Animal.ActivityPattern.Diurnal:
                 results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} wakes up.");
+                AnimalStaus.AnimalStatuses[animal.Id] = "Awake";
                 break;
             case Animal.ActivityPattern.Nocturnal:
                 results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} goes to sleep.");
+                AnimalStaus.AnimalStatuses[animal.Id] = "Sleeping";
                 break;
             default:
                 results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} remains active.");
+                AnimalStaus.AnimalStatuses[animal.Id] = "Active";
                 break;
         }
     }
@@ -49,6 +52,7 @@ namespace WebApplication1.Controllers
 }
 
 
+
 public async Task<IActionResult> Sunset()
 {
     var animals = await _context.Animals.Include(a => a.Enclosure).ToListAsync();
@@ -56,18 +60,23 @@ public async Task<IActionResult> Sunset()
 
     foreach (var animal in animals)
     {
+        string status;
         switch (animal.activityPattern)
         {
             case Animal.ActivityPattern.Nocturnal:
-                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} wakes up.");
+                status = $"{animal.Name} wakes up!";
+                AnimalStaus.UpdateStatus(animal.Id, "Awake");
                 break;
             case Animal.ActivityPattern.Diurnal:
-                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} goes to sleep.");
+                status = $"{animal.Name} goes to sleep.";
+                AnimalStaus.UpdateStatus(animal.Id, "Sleeping");
                 break;
             default:
-                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} remains active.");
+                status = $"{animal.Name} remains active.";
+                AnimalStaus.UpdateStatus(animal.Id, "Active");
                 break;
         }
+        results.Add(status);
     }
 
     ViewData["ActionName"] = "Sunset";
@@ -81,19 +90,27 @@ public async Task<IActionResult> FeedingTime()
 
     foreach (var animal in animals)
     {
+        string status;
+
+        // Prioritize prey over dietary class feeding
         if (!string.IsNullOrEmpty(animal.Prey))
         {
-            results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} eats {animal.Prey}.");
+            status = $"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} eats {animal.Prey} (priority over dietary class food).";
+            AnimalStaus.AnimalStatuses[animal.Id] = "Eating Prey";
         }
         else
         {
-            results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} is fed according to its dietary class: {animal.Diet}.");
+            status = $"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} is fed according to its dietary class: {animal.Diet}.";
+            AnimalStaus.AnimalStatuses[animal.Id] = "Eating Food";
         }
+
+        results.Add(status);
     }
 
     ViewData["ActionName"] = "Feeding Time";
     return View("ActionResults", results);
 }
+
 
 
 public async Task<IActionResult> CheckConstraints()

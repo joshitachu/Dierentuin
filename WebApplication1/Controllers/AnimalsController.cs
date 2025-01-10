@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Models;
 
+
 namespace WebApplication1.Controllers
 {
     public class AnimalsController : Controller
@@ -34,10 +35,10 @@ namespace WebApplication1.Controllers
     var dynamicAnimals = animals.Select(a =>
     {
         // If no status exists for the animal, assign a default status
-        if (!AnimalStatuses.TryGetValue(a.Id, out var status))
+        if (!AnimalStaus.AnimalStatuses.TryGetValue(a.Id, out var status))
         {
             status = a.Enclosure == null ? "Unassigned" : "Active";
-            AnimalStatuses[a.Id] = status; // Store default status
+            AnimalStaus.AnimalStatuses[a.Id] = status; // Store default status
         }
 
         return new
@@ -226,89 +227,94 @@ namespace WebApplication1.Controllers
   
 
 // Actions: Sunset for Individual Animal
-private static readonly Dictionary<int, string> AnimalStatuses = new Dictionary<int, string>();
 
     public async Task<IActionResult> Sunrise(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string status;
+    switch (animal.activityPattern)
     {
-        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
-
-        if (animal == null)
-            return NotFound("Animal not found.");
-
-        string status;
-        switch (animal.activityPattern)
-        {
-            case Animal.ActivityPattern.Diurnal:
-                status = $"{animal.Name} wakes up!";
-                AnimalStatuses[id] = "Awake"; // Set dynamic status
-                break;
-            case Animal.ActivityPattern.Nocturnal:
-                status = $"{animal.Name} goes to sleep.";
-                AnimalStatuses[id] = "Sleeping"; // Set dynamic status
-                break;
-            default:
-                status = $"{animal.Name} remains active.";
-                AnimalStatuses[id] = "Active"; // Set dynamic status
-                break;
-        }
-
-        ViewData["ActionName"] = "Sunrise";
-        ViewData["AnimalName"] = animal.Name;
-        return View("ActionResult", status);
+        case Animal.ActivityPattern.Diurnal:
+            status = $"{animal.Name} wakes up!";
+            AnimalStaus.AnimalStatuses[id] = "Awake";
+            break;
+        case Animal.ActivityPattern.Nocturnal:
+            status = $"{animal.Name} goes to sleep.";
+            AnimalStaus.AnimalStatuses[id] = "Sleeping";
+            break;
+        default:
+            status = $"{animal.Name} remains active.";
+            AnimalStaus.AnimalStatuses[id] = "Active";
+            break;
     }
+
+    ViewData["ActionName"] = "Sunrise";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", status);
+}
+
 
     public async Task<IActionResult> Sunset(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string status;
+    switch (animal.activityPattern)
     {
-        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
-
-        if (animal == null)
-            return NotFound("Animal not found.");
-
-        string status;
-        switch (animal.activityPattern)
-        {
-            case Animal.ActivityPattern.Nocturnal:
-                status = $"{animal.Name} wakes up!";
-                AnimalStatuses[id] = "Awake"; // Set dynamic status
-                break;
-            case Animal.ActivityPattern.Diurnal:
-                status = $"{animal.Name} goes to sleep.";
-                AnimalStatuses[id] = "Sleeping"; // Set dynamic status
-                break;
-            default:
-                status = $"{animal.Name} remains active.";
-                AnimalStatuses[id] = "Active"; // Set dynamic status
-                break;
-        }
-
-        ViewData["ActionName"] = "Sunset";
-        ViewData["AnimalName"] = animal.Name;
-        return View("ActionResult", status);
+        case Animal.ActivityPattern.Nocturnal:
+            status = $"{animal.Name} wakes up!";
+            AnimalStaus.UpdateStatus(id, "Awake");
+            break;
+        case Animal.ActivityPattern.Diurnal:
+            status = $"{animal.Name} goes to sleep.";
+            AnimalStaus.UpdateStatus(id, "Sleeping");
+            break;
+        default:
+            status = $"{animal.Name} remains active.";
+            AnimalStaus.UpdateStatus(id, "Active");
+            break;
     }
 
-    public async Task<IActionResult> FeedingTime(int id)
+    ViewData["ActionName"] = "Sunset";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", status);
+}
+
+
+   public async Task<IActionResult> FeedingTime(int id)
+{
+    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+    if (animal == null)
+        return NotFound("Animal not found.");
+
+    string status;
+
+    // Check if the animal has a specific prey
+    if (!string.IsNullOrEmpty(animal.Prey))
     {
-        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
-
-        if (animal == null)
-            return NotFound("Animal not found.");
-
-        string status;
-        if (!string.IsNullOrEmpty(animal.Prey))
-        {
-            status = $"{animal.Name} eats {animal.Prey}.";
-            AnimalStatuses[id] = "Eating"; // Set dynamic status
-        }
-        else
-        {
-            status = $"{animal.Name} is fed according to its dietary class: {animal.Diet}.";
-            AnimalStatuses[id] = "Eating"; // Set dynamic status
-        }
-
-        ViewData["ActionName"] = "Feeding Time";
-        ViewData["AnimalName"] = animal.Name;
-        return View("ActionResult", status);
+        
+        status = $"{animal.Name} eats {animal.Prey} (priority over dietary class food).";
+        AnimalStaus.UpdateStatus(id, "Eating Prey");
     }
+    else
+    {
+        // Default output
+        status = $"{animal.Name} is fed according to its dietary class: {animal.Diet}.";
+        AnimalStaus.UpdateStatus(id, "Eating Food");
+    }
+
+    ViewData["ActionName"] = "Feeding Time";
+    ViewData["AnimalName"] = animal.Name;
+    return View("ActionResult", status);
+}
 
 
 // Actions: CheckConstraints for Individual Animal

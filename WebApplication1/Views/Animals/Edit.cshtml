@@ -23,7 +23,13 @@
     <div class="form-group">
         <label asp-for="Category.Name">Category</label>
         <select asp-for="CategoryId" class="form-control" asp-items="@(ViewData["CategoryList"] as IEnumerable<SelectListItem>)">
-            <option value="">-- Select Category --</option>
+            <option value="">Unassigned</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div> <div class="form-group">
+        <label asp-for="Enclosure.Name">Category</label>
+        <select asp-for="EnclosureId" class="form-control" asp-items="@(ViewData["EnclsoureList"] as IEnumerable<SelectListItem>)">
+            <option value="">Unassigned</option>
         </select>
         <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>

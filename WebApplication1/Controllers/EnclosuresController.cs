@@ -243,25 +243,29 @@ public async Task<IActionResult> Sunrise(int id)
     var results = new List<string>();
     foreach (var animal in enclosure.Animals)
     {
+        string status;
         switch (animal.activityPattern)
         {
             case Animal.ActivityPattern.Diurnal:
-                results.Add($"{animal.Name} wakes up in {enclosure.Name}!");
+                status = $"{animal.Name} wakes up in {enclosure.Name}!";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Awake";
                 break;
             case Animal.ActivityPattern.Nocturnal:
-                results.Add($"{animal.Name} goes to sleep in {enclosure.Name}.");
+                status = $"{animal.Name} goes to sleep in {enclosure.Name}.";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Sleeping";
                 break;
             default:
-                results.Add($"{animal.Name} remains active in {enclosure.Name}.");
+                status = $"{animal.Name} remains active in {enclosure.Name}.";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Active";
                 break;
         }
+        results.Add(status);
     }
 
     ViewData["ActionName"] = $"Sunrise in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
-// Similarly for Sunset, FeedingTime, and CheckConstraints
 [HttpGet("/Enclosures/{id:int}/Sunset")]
 public async Task<IActionResult> Sunset(int id)
 {
@@ -275,27 +279,30 @@ public async Task<IActionResult> Sunset(int id)
     var results = new List<string>();
     foreach (var animal in enclosure.Animals)
     {
+        string status;
         switch (animal.activityPattern)
         {
             case Animal.ActivityPattern.Nocturnal:
-                results.Add($"{animal.Name} wakes up in {enclosure.Name}!");
+                status = $"{animal.Name} wakes up in {enclosure.Name}!";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Awake";
                 break;
             case Animal.ActivityPattern.Diurnal:
-                results.Add($"{animal.Name} goes to sleep in {enclosure.Name}.");
+                status = $"{animal.Name} goes to sleep in {enclosure.Name}.";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Sleeping";
                 break;
             default:
-                results.Add($"{animal.Name} remains active in {enclosure.Name}.");
+                status = $"{animal.Name} remains active in {enclosure.Name}.";
+                AnimalStaus.AnimalStatuses[animal.Id] = "Active";
                 break;
         }
+        results.Add(status);
     }
 
     ViewData["ActionName"] = $"Sunset in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
-// Repeat the same for FeedingTime and CheckConstraints with explicit routes.
-
-
+[HttpGet("/Enclosures/{id:int}/FeedingTime")]
 public async Task<IActionResult> FeedingTime(int id)
 {
     var enclosure = await _context.Enclosures
@@ -306,22 +313,32 @@ public async Task<IActionResult> FeedingTime(int id)
         return NotFound("Enclosure not found.");
 
     var results = new List<string>();
+
     foreach (var animal in enclosure.Animals)
     {
+        string status;
+
+        // Prioritize prey over dietary class feeding
         if (!string.IsNullOrEmpty(animal.Prey))
         {
-            results.Add($"{animal.Name} eats {animal.Prey} in {enclosure.Name}.");
+            status = $"{animal.Name} eats {animal.Prey} in {enclosure.Name} (priority over dietary class food).";
+            AnimalStaus.AnimalStatuses[animal.Id] = "Eating Prey";
         }
         else
         {
-            results.Add($"{animal.Name} is fed according to its dietary class: {animal.Diet} in {enclosure.Name}.");
+            status = $"{animal.Name} is fed according to its dietary class: {animal.Diet} in {enclosure.Name}.";
+            AnimalStaus.AnimalStatuses[animal.Id] = "Eating Food";
         }
+
+        results.Add(status);
     }
 
     ViewData["ActionName"] = $"Feeding Time in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
+
+[HttpGet("/Enclosures/{id:int}/CheckConstraints")]
 public async Task<IActionResult> CheckConstraints(int id)
 {
     var enclosure = await _context.Enclosures
@@ -334,24 +351,27 @@ public async Task<IActionResult> CheckConstraints(int id)
     var results = new List<string>();
     foreach (var animal in enclosure.Animals)
     {
+        string status;
         double availableSpace = enclosure.Size / enclosure.Animals.Count;
         if (availableSpace < animal.SpaceRequirement)
         {
-            results.Add($"{animal.Name} has insufficient space in {enclosure.Name}.");
+            status = $"{animal.Name} has insufficient space in {enclosure.Name}.";
         }
         else
         {
-            results.Add($"{animal.Name} has sufficient space in {enclosure.Name}.");
+            status = $"{animal.Name} has sufficient space in {enclosure.Name}.";
         }
 
         if ((int)animal.SecurityRequirement > (int)enclosure.securityLevel)
         {
-            results.Add($"{animal.Name} does not meet the security requirements in {enclosure.Name}.");
+            status += $" Security requirements are not met.";
         }
         else
         {
-            results.Add($"{animal.Name} meets the security requirements in {enclosure.Name}.");
+            status += $" Security requirements are met.";
         }
+        results.Add(status);
+        AnimalStaus.AnimalStatuses[animal.Id] = "Checked";
     }
 
     ViewData["ActionName"] = $"Check Constraints in {enclosure.Name}";
