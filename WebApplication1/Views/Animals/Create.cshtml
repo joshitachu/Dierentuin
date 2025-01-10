@@ -1,13 +1,13 @@
 ﻿@model WebApplication1.Models.Animal
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Animal";
 }
 
 <h1>Create Animal</h1>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -40,22 +40,57 @@
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-    <label class="control-label">Enclosure</label>
-    <select asp-for="EnclosureId" class="form-control" asp-items="@(ViewData["EnclosureList"] as IEnumerable<SelectListItem>)">
-        <option value="">-- Select Enclosure --</option>
-    </select>
-    <span asp-validation-for="EnclosureId" class="text-danger"></span>
-</div>
 
-
+            <!-- Enclosure Dropdown -->
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <label asp-for="EnclosureId" class="control-label">Enclosure</label>
+                <select asp-for="EnclosureId" class="form-control" asp-items="@(ViewData["EnclosureList"] as IEnumerable<SelectListItem>)">
+                    <option value="">-- Select Enclosure --</option>
+                </select>
+                <span asp-validation-for="EnclosureId" class="text-danger"></span>
             </div>
+
+            <!-- Animal Size -->
+            <div class="form-group">
+                <label asp-for="AnimalSize" class="control-label"></label>
+                <select asp-for="AnimalSize" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.Animal.Size>()"></select>
+                <span asp-validation-for="AnimalSize" class="text-danger"></span>
+            </div>
+
+            <!-- Diet -->
+            <div class="form-group">
+                <label asp-for="Diet" class="control-label"></label>
+                <select asp-for="Diet" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.Animal.DietaryClass>()"></select>
+                <span asp-validation-for="Diet" class="text-danger"></span>
+            </div>
+
+            <!-- Activity Pattern -->
+            <div class="form-group">
+                <label asp-for="activityPattern" class="control-label"></label>
+                <select asp-for="activityPattern" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.Animal.ActivityPattern>()"></select>
+                <span asp-validation-for="activityPattern" class="text-danger"></span>
+            </div>
+
+            <!-- Space Requirement -->
+            <div class="form-group">
+                <label asp-for="SpaceRequirement" class="control-label"></label>
+                <input asp-for="SpaceRequirement" class="form-control" />
+                <span asp-validation-for="SpaceRequirement" class="text-danger"></span>
+            </div>
+
+            <!-- Security Requirement -->
+            <div class="form-group">
+                <label asp-for="SecurityRequirement" class="control-label"></label>
+                <select asp-for="SecurityRequirement" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.SecurityLevel>()"></select>
+                <span asp-validation-for="SecurityRequirement" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <partial name="_ValidationScriptsPartial" />
 }

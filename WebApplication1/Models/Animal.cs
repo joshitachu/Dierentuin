@@ -1,3 +1,4 @@
+
 namespace WebApplication1.Models
 {
     public class Animal
@@ -20,6 +21,10 @@ namespace WebApplication1.Models
 
         public double SpaceRequirement { get; set; } 
         public SecurityLevel SecurityRequirement { get; set; } 
+
+        
+        public string? Status { get; set; }
+
 
         // Enums for specific attributes
         public enum Size

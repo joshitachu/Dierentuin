@@ -1,0 +1,12 @@
+@model IEnumerable<string>
+
+<h1>@ViewData["ActionName"] Results</h1>
+
+<ul>
+    @foreach (var result in Model)
+    {
+        <li>@result</li>
+    }
+</ul>
+
+<a asp-action="Index" class="btn btn-primary">Back to Zoo</a>

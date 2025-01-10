@@ -23,6 +23,11 @@
         <tr>
             <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Name)</th>
             <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Description)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Size)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().securityLevel)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Habitat)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Climate)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Animals.Count)</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -32,21 +37,23 @@
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Name)</td>
                 <td>@Html.DisplayFor(modelItem => item.Description)</td>
-                <td>
+                <td>@Html.DisplayFor(modelItem => item.Size)</td>
+                <td>@Html.DisplayFor(modelItem => item.securityLevel)</td>
+                <td>@Html.DisplayFor(modelItem => item.Habitat)</td>
+                <td>@Html.DisplayFor(modelItem => item.Climate)</td>
+                <td>@item.Animals.Count</td>
+              <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
                     <a asp-action="AssignAnimal" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Assign Animals</a>
+                    <a asp-action="Sunrise" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sunrise</a>
+                    <a asp-action="Sunset" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Sunset</a>
+                    <a asp-action="FeedingTime" asp-route-id="@item.Id" class="btn btn-success btn-sm">Feeding Time</a>
+                    <a asp-action="CheckConstraints" asp-route-id="@item.Id" class="btn btn-dark btn-sm">Check Constraints</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-
-<h2>Global Actions</h2>
-<div>
-    <button onclick="window.location.href='/Enclosures/Sunrise'" class="btn btn-warning">Perform Sunrise</button>
-    <button onclick="window.location.href='/Enclosures/Sunset'" class="btn btn-secondary">Perform Sunset</button>
-    <button onclick="window.location.href='/Enclosures/FeedingTime'" class="btn btn-success">Feeding Time</button>
-    <button onclick="window.location.href='/Enclosures/CheckConstraints'" class="btn btn-dark">Check Constraints</button>
-</div>
+    

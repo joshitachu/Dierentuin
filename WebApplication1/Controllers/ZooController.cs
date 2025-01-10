@@ -20,175 +20,160 @@ namespace WebApplication1.Controllers
         // Existing CRUD actions...
 
         // GET: Zoo/Sunrise
-        public async Task<IActionResult> Sunrise()
-        {
-            var zoo = await _context.Zoos
-                .Include(z => z.Enclosures)
-                .ThenInclude(e => e.Animals)
-                .FirstOrDefaultAsync();
-
-            if (zoo == null)
-                return NotFound("Zoo not found.");
-
-            foreach (var enclosure in zoo.Enclosures)
-            {
-                foreach (var animal in enclosure.Animals)
-                {
-                    switch (animal.activityPattern)
-                    {
-                        case Animal.ActivityPattern.Diurnal:
-                            Console.WriteLine($"{animal.Name} wakes up.");
-                            break;
-                        case Animal.ActivityPattern.Nocturnal:
-                            Console.WriteLine($"{animal.Name} goes to sleep.");
-                            break;
-                        default:
-                            Console.WriteLine($"{animal.Name} remains active.");
-                            break;
-                    }
-                }
-            }
-
-            return Ok("Sunrise action completed.");
-        }
+    
 
         // GET: Zoos/Sunset
-        public async Task<IActionResult> Sunset()
+    public async Task<IActionResult> Sunrise()
+{
+    var animals = await _context.Animals.Include(a => a.Enclosure).ToListAsync();
+    var results = new List<string>();
+
+    foreach (var animal in animals)
+    {
+        switch (animal.activityPattern)
         {
-            var zoo = await _context.Zoos
-                .Include(z => z.Enclosures)
-                .ThenInclude(e => e.Animals)
-                .FirstOrDefaultAsync();
+            case Animal.ActivityPattern.Diurnal:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} wakes up.");
+                break;
+            case Animal.ActivityPattern.Nocturnal:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} goes to sleep.");
+                break;
+            default:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} remains active.");
+                break;
+        }
+    }
 
-            if (zoo == null)
-                return NotFound("Zoo not found.");
+    ViewData["ActionName"] = "Sunrise";
+    return View("ActionResults", results);
+}
 
-            foreach (var enclosure in zoo.Enclosures)
+
+public async Task<IActionResult> Sunset()
+{
+    var animals = await _context.Animals.Include(a => a.Enclosure).ToListAsync();
+    var results = new List<string>();
+
+    foreach (var animal in animals)
+    {
+        switch (animal.activityPattern)
+        {
+            case Animal.ActivityPattern.Nocturnal:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} wakes up.");
+                break;
+            case Animal.ActivityPattern.Diurnal:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} goes to sleep.");
+                break;
+            default:
+                results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} remains active.");
+                break;
+        }
+    }
+
+    ViewData["ActionName"] = "Sunset";
+    return View("ActionResults", results);
+}
+
+public async Task<IActionResult> FeedingTime()
+{
+    var animals = await _context.Animals.Include(a => a.Enclosure).ToListAsync();
+    var results = new List<string>();
+
+    foreach (var animal in animals)
+    {
+        if (!string.IsNullOrEmpty(animal.Prey))
+        {
+            results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} eats {animal.Prey}.");
+        }
+        else
+        {
+            results.Add($"{animal.Name} in {animal.Enclosure?.Name ?? "no enclosure"} is fed according to its dietary class: {animal.Diet}.");
+        }
+    }
+
+    ViewData["ActionName"] = "Feeding Time";
+    return View("ActionResults", results);
+}
+
+
+public async Task<IActionResult> CheckConstraints()
+{
+    var enclosures = await _context.Enclosures.Include(e => e.Animals).ToListAsync();
+    var results = new List<string>();
+
+    foreach (var enclosure in enclosures)
+    {
+        foreach (var animal in enclosure.Animals)
+        {
+            double availableSpace = enclosure.Size / enclosure.Animals.Count;
+            if (availableSpace < animal.SpaceRequirement)
             {
-                foreach (var animal in enclosure.Animals)
-                {
-                    switch (animal.activityPattern)
-                    {
-                        case Animal.ActivityPattern.Nocturnal:
-                            Console.WriteLine($"{animal.Name} wakes up.");
-                            break;
-                        case Animal.ActivityPattern.Diurnal:
-                            Console.WriteLine($"{animal.Name} goes to sleep.");
-                            break;
-                        default:
-                            Console.WriteLine($"{animal.Name} remains active.");
-                            break;
-                    }
-                }
+                results.Add($"{animal.Name} in {enclosure.Name} has insufficient space.");
             }
 
-            return Ok("Sunset action completed.");
-        }
-
-        // GET: Zoos/FeedingTime
-        public async Task<IActionResult> FeedingTime()
-        {
-            var zoo = await _context.Zoos
-                .Include(z => z.Enclosures)
-                .ThenInclude(e => e.Animals)
-                .FirstOrDefaultAsync();
-
-            if (zoo == null)
-                return NotFound("Zoo not found.");
-
-            foreach (var enclosure in zoo.Enclosures)
+            if ((int)animal.SecurityRequirement > (int)enclosure.securityLevel)
             {
-                foreach (var animal in enclosure.Animals)
-                {
-                    if (!string.IsNullOrEmpty(animal.Prey))
-                    {
-                        Console.WriteLine($"{animal.Name} eats {animal.Prey}.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{animal.Name} is fed according to its dietary class: {animal.Diet}.");
-                    }
-                }
+                results.Add($"{animal.Name} in {enclosure.Name} does not meet the security requirements.");
             }
-
-            return Ok("Feeding time completed.");
         }
+    }
 
-        // GET: Zoos/CheckConstraints
-        public async Task<IActionResult> CheckConstraints()
-        {
-            var zoo = await _context.Zoos
-                .Include(z => z.Enclosures)
-                .ThenInclude(e => e.Animals)
-                .FirstOrDefaultAsync();
+    ViewData["ActionName"] = "Check Constraints";
+    return View("ActionResults", results);
+}
 
-            if (zoo == null)
-                return NotFound("Zoo not found.");
 
-            foreach (var enclosure in zoo.Enclosures)
-            {
-                foreach (var animal in enclosure.Animals)
-                {
-                    double availableSpace = enclosure.Size / enclosure.Animals.Count;
-                    if (availableSpace < animal.SpaceRequirement)
-                    {
-                        Console.WriteLine($"{animal.Name} in {enclosure.Name} has insufficient space.");
-                    }
-
-                    if ((int)animal.SecurityRequirement > (int)enclosure.securityLevel)
-                    {
-                        Console.WriteLine($"{animal.Name} in {enclosure.Name} does not meet the security requirements.");
-                    }
-                }
-            }
-
-            return Ok("Constraints checked.");
-        }
 
         // GET: Zoo/AutoAssign
         public async Task<IActionResult> AutoAssign(bool completeExisting = true)
+{
+    var zoo = await _context.Zoos
+        .Include(z => z.Enclosures)
+        .ThenInclude(e => e.Animals)
+        .FirstOrDefaultAsync();
+
+    if (zoo == null)
+        return NotFound("Zoo not found.");
+
+    var unassignedAnimals = await _context.Animals
+        .Where(a => a.EnclosureId == null)
+        .ToListAsync();
+
+    var assignmentResults = new List<string>();
+
+    foreach (var animal in unassignedAnimals)
+    {
+        var suitableEnclosure = zoo.Enclosures.FirstOrDefault(e =>
+            e.Size >= e.Animals.Count * animal.SpaceRequirement &&
+            (int)e.securityLevel >= (int)animal.SecurityRequirement);
+
+        if (suitableEnclosure != null)
         {
-            var zoo = await _context.Zoos
-                .Include(z => z.Enclosures)
-                .ThenInclude(e => e.Animals)
-                .FirstOrDefaultAsync();
-
-            if (zoo == null)
-                return NotFound("Zoo not found.");
-
-            var unassignedAnimals = await _context.Animals
-                .Where(a => a.EnclosureId == null)
-                .ToListAsync();
-
-            foreach (var animal in unassignedAnimals)
-            {
-                var suitableEnclosure = zoo.Enclosures.FirstOrDefault(e =>
-                    e.Size >= e.Animals.Count * animal.SpaceRequirement &&
-                    (int)e.securityLevel >= (int)animal.SecurityRequirement);
-
-                if (suitableEnclosure != null)
-                {
-                    suitableEnclosure.Animals.Add(animal);
-                    animal.EnclosureId = suitableEnclosure.Id;
-                }
-                else
-                {
-                    // Create a new enclosure
-                    var newEnclosure = new Enclosure
-                    {
-                        Name = $"Enclosure for {animal.Name}",
-                        Size = animal.SpaceRequirement * 5,
-                        securityLevel = animal.SecurityRequirement,
-                        Animals = new List<Animal> { animal }
-                    };
-
-                    zoo.Enclosures.Add(newEnclosure);
-                    _context.Enclosures.Add(newEnclosure);
-                }
-            }
-
-            await _context.SaveChangesAsync();
-            return Ok("AutoAssign completed.");
+            suitableEnclosure.Animals.Add(animal);
+            animal.EnclosureId = suitableEnclosure.Id;
+            assignmentResults.Add($"{animal.Name} assigned to existing enclosure {suitableEnclosure.Name}.");
         }
+        else
+        {
+            // Create a new enclosure
+            var newEnclosure = new Enclosure
+            {
+                Name = $"Enclosure for {animal.Name}",
+                Size = animal.SpaceRequirement * 5,
+                securityLevel = animal.SecurityRequirement,
+                Animals = new List<Animal> { animal }
+            };
+
+            zoo.Enclosures.Add(newEnclosure);
+            _context.Enclosures.Add(newEnclosure);
+            assignmentResults.Add($"{animal.Name} assigned to new enclosure {newEnclosure.Name}.");
+        }
+    }
+
+    await _context.SaveChangesAsync();
+    ViewData["Action"] = "Auto Assign";
+    return View("ActionResult", assignmentResults);
+}
+
     }
 }

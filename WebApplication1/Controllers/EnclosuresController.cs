@@ -62,17 +62,18 @@ namespace WebApplication1.Controllers
         // POST: Enclosures/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Size,Climate,HabitatType,SecurityLevel")] Enclosure enclosure)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(enclosure);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
+       
+public async Task<IActionResult> Create([Bind("Name,Description,Size,securityLevel,Habitat,Climate")] Enclosure enclosure)
+{
+    if (ModelState.IsValid)
+    {
+        _context.Add(enclosure);
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
+    }
+    return View(enclosure);
+}
 
-            return View(enclosure);
-        }
 
         // GET: Enclosures/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -94,35 +95,34 @@ namespace WebApplication1.Controllers
         // POST: Enclosures/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Size,Climate,HabitatType,SecurityLevel")] Enclosure enclosure)
+       
+public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Size,securityLevel,Habitat,Climate")] Enclosure enclosure)
+{
+    if (id != enclosure.Id)
+    {
+        return NotFound();
+    }
+
+    if (ModelState.IsValid)
+    {
+        try
         {
-            if (id != enclosure.Id)
+            _context.Update(enclosure);
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!EnclosureExists(enclosure.Id))
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(enclosure);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EnclosureExists(enclosure.Id))
-                    {
-                        return NotFound();
-                    }
-
-                    throw;
-                }
-
-                return RedirectToAction(nameof(Index));
-            }
-
-            return View(enclosure);
+            throw;
         }
+        return RedirectToAction(nameof(Index));
+    }
+    return View(enclosure);
+}
+
 
         // GET: Enclosures/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -230,125 +230,131 @@ public IActionResult Search(string searchTerm)
 }
 
 // GET: Enclosures/Sunrise
-public async Task<IActionResult> Sunrise()
+[HttpGet("/Enclosures/{id:int}/Sunrise")]
+public async Task<IActionResult> Sunrise(int id)
 {
-    var enclosures = await _context.Enclosures
+    var enclosure = await _context.Enclosures
         .Include(e => e.Animals)
-        .ToListAsync();
+        .FirstOrDefaultAsync(e => e.Id == id);
+
+    if (enclosure == null)
+        return NotFound("Enclosure not found.");
 
     var results = new List<string>();
-
-    foreach (var enclosure in enclosures)
+    foreach (var animal in enclosure.Animals)
     {
-        foreach (var animal in enclosure.Animals)
+        switch (animal.activityPattern)
         {
-            switch (animal.activityPattern)
-            {
-                case Animal.ActivityPattern.Diurnal:
-                    results.Add($"{animal.Name} in {enclosure.Name} wakes up!");
-                    break;
-                case Animal.ActivityPattern.Nocturnal:
-                    results.Add($"{animal.Name} in {enclosure.Name} goes to sleep.");
-                    break;
-                default:
-                    results.Add($"{animal.Name} in {enclosure.Name} remains active.");
-                    break;
-            }
+            case Animal.ActivityPattern.Diurnal:
+                results.Add($"{animal.Name} wakes up in {enclosure.Name}!");
+                break;
+            case Animal.ActivityPattern.Nocturnal:
+                results.Add($"{animal.Name} goes to sleep in {enclosure.Name}.");
+                break;
+            default:
+                results.Add($"{animal.Name} remains active in {enclosure.Name}.");
+                break;
         }
     }
 
-    ViewData["ActionName"] = "Sunrise";
+    ViewData["ActionName"] = $"Sunrise in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
-// GET: Enclosures/Sunset
-public async Task<IActionResult> Sunset()
+// Similarly for Sunset, FeedingTime, and CheckConstraints
+[HttpGet("/Enclosures/{id:int}/Sunset")]
+public async Task<IActionResult> Sunset(int id)
 {
-    var enclosures = await _context.Enclosures
+    var enclosure = await _context.Enclosures
         .Include(e => e.Animals)
-        .ToListAsync();
+        .FirstOrDefaultAsync(e => e.Id == id);
+
+    if (enclosure == null)
+        return NotFound("Enclosure not found.");
 
     var results = new List<string>();
-
-    foreach (var enclosure in enclosures)
+    foreach (var animal in enclosure.Animals)
     {
-        foreach (var animal in enclosure.Animals)
+        switch (animal.activityPattern)
         {
-            switch (animal.activityPattern)
-            {
-                case Animal.ActivityPattern.Nocturnal:
-                    results.Add($"{animal.Name} in {enclosure.Name} wakes up!");
-                    break;
-                case Animal.ActivityPattern.Diurnal:
-                    results.Add($"{animal.Name} in {enclosure.Name} goes to sleep.");
-                    break;
-                default:
-                    results.Add($"{animal.Name} in {enclosure.Name} remains active.");
-                    break;
-            }
+            case Animal.ActivityPattern.Nocturnal:
+                results.Add($"{animal.Name} wakes up in {enclosure.Name}!");
+                break;
+            case Animal.ActivityPattern.Diurnal:
+                results.Add($"{animal.Name} goes to sleep in {enclosure.Name}.");
+                break;
+            default:
+                results.Add($"{animal.Name} remains active in {enclosure.Name}.");
+                break;
         }
     }
 
-    ViewData["ActionName"] = "Sunset";
+    ViewData["ActionName"] = $"Sunset in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
-// GET: Enclosures/FeedingTime
-public async Task<IActionResult> FeedingTime()
+// Repeat the same for FeedingTime and CheckConstraints with explicit routes.
+
+
+public async Task<IActionResult> FeedingTime(int id)
 {
-    var enclosures = await _context.Enclosures
+    var enclosure = await _context.Enclosures
         .Include(e => e.Animals)
-        .ToListAsync();
+        .FirstOrDefaultAsync(e => e.Id == id);
+
+    if (enclosure == null)
+        return NotFound("Enclosure not found.");
 
     var results = new List<string>();
-
-    foreach (var enclosure in enclosures)
+    foreach (var animal in enclosure.Animals)
     {
-        foreach (var animal in enclosure.Animals)
+        if (!string.IsNullOrEmpty(animal.Prey))
         {
-            if (!string.IsNullOrEmpty(animal.Prey))
-            {
-                results.Add($"{animal.Name} in {enclosure.Name} eats {animal.Prey}.");
-            }
-            else
-            {
-                results.Add($"{animal.Name} in {enclosure.Name} is fed according to its dietary class: {animal.Diet}.");
-            }
+            results.Add($"{animal.Name} eats {animal.Prey} in {enclosure.Name}.");
+        }
+        else
+        {
+            results.Add($"{animal.Name} is fed according to its dietary class: {animal.Diet} in {enclosure.Name}.");
         }
     }
 
-    ViewData["ActionName"] = "Feeding Time";
+    ViewData["ActionName"] = $"Feeding Time in {enclosure.Name}";
     return View("ActionResults", results);
 }
 
-
-// GET: Enclosures/CheckConstraints
-public async Task<IActionResult> CheckConstraints()
+public async Task<IActionResult> CheckConstraints(int id)
 {
-    var enclosures = await _context.Enclosures
+    var enclosure = await _context.Enclosures
         .Include(e => e.Animals)
-        .ToListAsync();
+        .FirstOrDefaultAsync(e => e.Id == id);
+
+    if (enclosure == null)
+        return NotFound("Enclosure not found.");
 
     var results = new List<string>();
-
-    foreach (var enclosure in enclosures)
+    foreach (var animal in enclosure.Animals)
     {
-        foreach (var animal in enclosure.Animals)
+        double availableSpace = enclosure.Size / enclosure.Animals.Count;
+        if (availableSpace < animal.SpaceRequirement)
         {
-            double availableSpace = enclosure.Size / enclosure.Animals.Count;
-            if (availableSpace < animal.SpaceRequirement)
-            {
-                results.Add($"{animal.Name} in {enclosure.Name} has insufficient space.");
-            }
+            results.Add($"{animal.Name} has insufficient space in {enclosure.Name}.");
+        }
+        else
+        {
+            results.Add($"{animal.Name} has sufficient space in {enclosure.Name}.");
+        }
 
-            if ((int)animal.SecurityRequirement > (int)enclosure.securityLevel)
-            {
-                results.Add($"{animal.Name} in {enclosure.Name} does not meet the security requirements.");
-            }
+        if ((int)animal.SecurityRequirement > (int)enclosure.securityLevel)
+        {
+            results.Add($"{animal.Name} does not meet the security requirements in {enclosure.Name}.");
+        }
+        else
+        {
+            results.Add($"{animal.Name} meets the security requirements in {enclosure.Name}.");
         }
     }
 
-    ViewData["ActionName"] = "Check Constraints";
+    ViewData["ActionName"] = $"Check Constraints in {enclosure.Name}";
     return View("ActionResults", results);
 }
 

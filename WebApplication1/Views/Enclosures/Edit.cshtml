@@ -1,28 +1,61 @@
 ﻿@model WebApplication1.Models.Enclosure
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Enclosure";
 }
 
-<h1>Edit</h1>
+<h1>Edit Enclosure</h1>
 
-<h4>Enclosure</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
+            
+            <!-- Name -->
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+            
+            <!-- Description -->
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
+            
+            <!-- Size -->
+            <div class="form-group">
+                <label asp-for="Size" class="control-label"></label>
+                <input asp-for="Size" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="Size" class="text-danger"></span>
+            </div>
+            
+            <!-- Security Level -->
+            <div class="form-group">
+                <label asp-for="securityLevel" class="control-label"></label>
+                <select asp-for="securityLevel" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.SecurityLevel>()"></select>
+                <span asp-validation-for="securityLevel" class="text-danger"></span>
+            </div>
+            
+            <!-- Habitat -->
+            <div class="form-group">
+                <label asp-for="Habitat" class="control-label"></label>
+                <select asp-for="Habitat" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.Enclosure.HabitatType>()"></select>
+                <span asp-validation-for="Habitat" class="text-danger"></span>
+            </div>
+            
+            <!-- Climate -->
+            <div class="form-group">
+                <label asp-for="Climate" class="control-label"></label>
+                <select asp-for="Climate" class="form-control" asp-items="Html.GetEnumSelectList<WebApplication1.Models.Enclosure.ClimateType>()"></select>
+                <span asp-validation-for="Climate" class="text-danger"></span>
+            </div>
+            
+            <!-- Submit Button -->
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
@@ -31,9 +64,9 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <partial name="_ValidationScriptsPartial" />
 }

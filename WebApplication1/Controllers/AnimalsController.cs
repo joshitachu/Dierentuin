@@ -20,23 +20,58 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Animals
-       public async Task<IActionResult> Index(string searchTerm)
+     public async Task<IActionResult> Index(string searchTerm)
+{
+    ViewData["SearchTerm"] = searchTerm;
+
+    // Fetch animals with related data
+    var animals = await _context.Animals
+        .Include(a => a.Category)
+        .Include(a => a.Enclosure)
+        .ToListAsync();
+
+    // Retrieve or assign default status from AnimalStatuses
+    var dynamicAnimals = animals.Select(a =>
+    {
+        // If no status exists for the animal, assign a default status
+        if (!AnimalStatuses.TryGetValue(a.Id, out var status))
         {
-            ViewData["SearchTerm"] = searchTerm; // Pass search term back to the view
-
-            var animals = _context.Animals.Include(a => a.Category).AsQueryable();
-
-            if (!string.IsNullOrEmpty(searchTerm))
-            {
-                animals = animals.Where(a =>
-                    a.Name.Contains(searchTerm) ||
-                    a.Species.Contains(searchTerm) ||
-                    a.Prey.Contains(searchTerm) ||
-                    (a.Category != null && a.Category.Name.Contains(searchTerm)));
-            }
-
-            return View(await animals.ToListAsync());
+            status = a.Enclosure == null ? "Unassigned" : "Active";
+            AnimalStatuses[a.Id] = status; // Store default status
         }
+
+        return new
+        {
+            a.Id,
+            a.Name,
+            a.Species,
+            CategoryName = a.Category?.Name ?? "No Category",
+            EnclosureName = a.Enclosure?.Name ?? "No Enclosure",
+            a.AnimalSize,
+            a.Diet,
+            a.activityPattern,
+            a.Prey,
+            a.SpaceRequirement,
+            a.SecurityRequirement,
+            Status = status // Status from AnimalStatuses
+        };
+    }).ToList();
+
+    // Apply search filter if needed
+    if (!string.IsNullOrEmpty(searchTerm))
+    {
+        dynamicAnimals = dynamicAnimals
+            .Where(a =>
+                a.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                a.Species.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                a.CategoryName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                a.EnclosureName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    return View(dynamicAnimals);
+}
+
 
 
         // GET: Animals/Details/5
@@ -49,6 +84,7 @@ namespace WebApplication1.Controllers
 
             var animal = await _context.Animals
                 .Include(a => a.Category)
+                .Include(a => a.Enclosure)
                 .FirstOrDefaultAsync(a => a.Id == id);
 
             if (animal == null)
@@ -72,45 +108,21 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Animal animal)
         {
-            try
+            if (ModelState.IsValid)
             {
-                Console.WriteLine($"Creating animal: Name={animal.Name}, Species={animal.Species}, Prey={animal.Prey}, CategoryId={animal.CategoryId}");
-
-                animal.Category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == animal.CategoryId);
-                if (animal.Category == null)
+                try
                 {
-                    ModelState.AddModelError("CategoryId", "Invalid category selected.");
-                }
+                    animal.Category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == animal.CategoryId);
+                    animal.Enclosure = await _context.Enclosures.FirstOrDefaultAsync(e => e.Id == animal.EnclosureId);
 
-                if (!animal.EnclosureId.HasValue)
-                {
-                    var defaultEnclosure = await _context.Enclosures.FirstOrDefaultAsync();
-                    if (defaultEnclosure != null)
-                    {
-                        animal.EnclosureId = defaultEnclosure.Id;
-                        animal.Enclosure = defaultEnclosure;
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("EnclosureId", "No default enclosure available.");
-                    }
-                }
-
-                if (ModelState.IsValid)
-                {
                     _context.Add(animal);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
-
-                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                catch (Exception ex)
                 {
-                    Console.WriteLine($"Validation Error: {error.ErrorMessage}");
+                    Console.WriteLine($"Error creating animal: {ex.Message}");
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
             }
 
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
@@ -153,6 +165,7 @@ namespace WebApplication1.Controllers
                 {
                     _context.Update(animal);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -162,13 +175,13 @@ namespace WebApplication1.Controllers
                     }
                     throw;
                 }
-                return RedirectToAction(nameof(Index));
             }
 
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", animal.CategoryId);
             ViewData["EnclosureList"] = new SelectList(_context.Enclosures, "Id", "Name", animal.EnclosureId);
             return View(animal);
         }
+
 
         // GET: Animals/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -210,63 +223,92 @@ namespace WebApplication1.Controllers
             return _context.Animals.Any(a => a.Id == id);
         }
 
-       public async Task<IActionResult> Sunrise(int id)
-{
-    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
-
-    if (animal == null)
-        return NotFound("Animal not found.");
-
-    string message = animal.activityPattern switch
-    {
-        Animal.ActivityPattern.Diurnal => $"{animal.Name} wakes up!",
-        Animal.ActivityPattern.Nocturnal => $"{animal.Name} goes to sleep.",
-        _ => $"{animal.Name} remains active."
-    };
-
-    ViewData["ActionName"] = "Sunrise";
-    ViewData["AnimalName"] = animal.Name;
-    return View("ActionResult", message);
-}
-
+  
 
 // Actions: Sunset for Individual Animal
-public async Task<IActionResult> Sunset(int id)
-{
-    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+private static readonly Dictionary<int, string> AnimalStatuses = new Dictionary<int, string>();
 
-    if (animal == null)
-        return NotFound("Animal not found.");
-
-    string message = animal.activityPattern switch
+    public async Task<IActionResult> Sunrise(int id)
     {
-        Animal.ActivityPattern.Nocturnal => $"{animal.Name} wakes up!",
-        Animal.ActivityPattern.Diurnal => $"{animal.Name} goes to sleep.",
-        _ => $"{animal.Name} remains active."
-    };
+        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
 
-    ViewData["ActionName"] = "Sunset";
-    ViewData["AnimalName"] = animal.Name;
-    return View("ActionResult", message);
-}
+        if (animal == null)
+            return NotFound("Animal not found.");
 
+        string status;
+        switch (animal.activityPattern)
+        {
+            case Animal.ActivityPattern.Diurnal:
+                status = $"{animal.Name} wakes up!";
+                AnimalStatuses[id] = "Awake"; // Set dynamic status
+                break;
+            case Animal.ActivityPattern.Nocturnal:
+                status = $"{animal.Name} goes to sleep.";
+                AnimalStatuses[id] = "Sleeping"; // Set dynamic status
+                break;
+            default:
+                status = $"{animal.Name} remains active.";
+                AnimalStatuses[id] = "Active"; // Set dynamic status
+                break;
+        }
 
-// Actions: FeedingTime for Individual Animal
-public async Task<IActionResult> FeedingTime(int id)
-{
-    var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+        ViewData["ActionName"] = "Sunrise";
+        ViewData["AnimalName"] = animal.Name;
+        return View("ActionResult", status);
+    }
 
-    if (animal == null)
-        return NotFound("Animal not found.");
+    public async Task<IActionResult> Sunset(int id)
+    {
+        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
 
-    string message = !string.IsNullOrEmpty(animal.Prey)
-        ? $"{animal.Name} eats {animal.Prey}."
-        : $"{animal.Name} is fed according to its dietary class: {animal.Diet}.";
+        if (animal == null)
+            return NotFound("Animal not found.");
 
-    ViewData["ActionName"] = "Feeding Time";
-    ViewData["AnimalName"] = animal.Name;
-    return View("ActionResult", message);
-}
+        string status;
+        switch (animal.activityPattern)
+        {
+            case Animal.ActivityPattern.Nocturnal:
+                status = $"{animal.Name} wakes up!";
+                AnimalStatuses[id] = "Awake"; // Set dynamic status
+                break;
+            case Animal.ActivityPattern.Diurnal:
+                status = $"{animal.Name} goes to sleep.";
+                AnimalStatuses[id] = "Sleeping"; // Set dynamic status
+                break;
+            default:
+                status = $"{animal.Name} remains active.";
+                AnimalStatuses[id] = "Active"; // Set dynamic status
+                break;
+        }
+
+        ViewData["ActionName"] = "Sunset";
+        ViewData["AnimalName"] = animal.Name;
+        return View("ActionResult", status);
+    }
+
+    public async Task<IActionResult> FeedingTime(int id)
+    {
+        var animal = await _context.Animals.FirstOrDefaultAsync(a => a.Id == id);
+
+        if (animal == null)
+            return NotFound("Animal not found.");
+
+        string status;
+        if (!string.IsNullOrEmpty(animal.Prey))
+        {
+            status = $"{animal.Name} eats {animal.Prey}.";
+            AnimalStatuses[id] = "Eating"; // Set dynamic status
+        }
+        else
+        {
+            status = $"{animal.Name} is fed according to its dietary class: {animal.Diet}.";
+            AnimalStatuses[id] = "Eating"; // Set dynamic status
+        }
+
+        ViewData["ActionName"] = "Feeding Time";
+        ViewData["AnimalName"] = animal.Name;
+        return View("ActionResult", status);
+    }
 
 
 // Actions: CheckConstraints for Individual Animal
@@ -277,11 +319,13 @@ public async Task<IActionResult> CheckConstraints(int id)
     if (animal == null)
         return NotFound("Animal not found.");
 
+    string status = "Status checked";
     List<string> messages = new();
 
     if (animal.Enclosure == null)
     {
         messages.Add($"{animal.Name} is not assigned to any enclosure.");
+        animal.Status = "Unassigned";
     }
     else
     {
@@ -303,12 +347,36 @@ public async Task<IActionResult> CheckConstraints(int id)
         {
             messages.Add($"{animal.Name} meets the security requirements in {animal.Enclosure.Name}.");
         }
+
+        animal.Status = "Checked"; // Update status
     }
+
+    // Save the updated status to the database
+    _context.Update(animal);
+    await _context.SaveChangesAsync();
 
     ViewData["ActionName"] = "Check Constraints";
     ViewData["AnimalName"] = animal.Name;
     return View("ActionResultList", messages);
 }
+
+
+[HttpPost]
+public async Task<IActionResult> SetStatus(int id, string status)
+{
+    var animal = await _context.Animals.FindAsync(id);
+    if (animal == null)
+    {
+        return NotFound("Animal not found.");
+    }
+
+    animal.Status = status;
+    _context.Update(animal);
+    await _context.SaveChangesAsync();
+
+    return RedirectToAction(nameof(Index));
+}
+
 
 
     }
