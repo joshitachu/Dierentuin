@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\AddAnimal.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
+      "PackagePath": "staticwebassets\\css\\EditAnimals.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\image.png",
+      "PackagePath": "staticwebassets\\css\\image.png"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\site.css",
