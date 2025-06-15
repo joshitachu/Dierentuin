@@ -181,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1646"
+          "Value": "1476"
         },
         {
           "Name": "Content-Type",
@@ -189,22 +189,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yDadlQOzBc5aAKr6NWe2wqBlCZJwA+SMm+I4tnH2sjw=\""
+          "Value": "\"IzHOGGtEat3y7nRRU7Wj5wQHQusTBj5GdDhUFgd98Qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 17:14:53 GMT"
+          "Value": "Sun, 15 Jun 2025 17:19:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yDadlQOzBc5aAKr6NWe2wqBlCZJwA+SMm+I4tnH2sjw="
+          "Value": "sha256-IzHOGGtEat3y7nRRU7Wj5wQHQusTBj5GdDhUFgd98Qs="
         }
       ]
     },
     {
-      "Route": "css/AddAnimal.wujljj420h.css",
+      "Route": "css/AddAnimal.hjqi4lklmo.css",
       "AssetFile": "css/AddAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1646"
+          "Value": "1476"
         },
         {
           "Name": "Content-Type",
@@ -226,21 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yDadlQOzBc5aAKr6NWe2wqBlCZJwA+SMm+I4tnH2sjw=\""
+          "Value": "\"IzHOGGtEat3y7nRRU7Wj5wQHQusTBj5GdDhUFgd98Qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 17:14:53 GMT"
+          "Value": "Sun, 15 Jun 2025 17:19:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wujljj420h"
+          "Value": "hjqi4lklmo"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yDadlQOzBc5aAKr6NWe2wqBlCZJwA+SMm+I4tnH2sjw="
+          "Value": "sha256-IzHOGGtEat3y7nRRU7Wj5wQHQusTBj5GdDhUFgd98Qs="
         },
         {
           "Name": "label",
@@ -409,6 +409,88 @@
         {
           "Name": "label",
           "Value": "css/site.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/view-manage.css",
+      "AssetFile": "css/view-manage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KgT60LX0YhT/I2OaILOBoEf6F6mHzLeNN16tX43l1tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 17:26:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KgT60LX0YhT/I2OaILOBoEf6F6mHzLeNN16tX43l1tk="
+        }
+      ]
+    },
+    {
+      "Route": "css/view-manage.y1dfkek1ml.css",
+      "AssetFile": "css/view-manage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KgT60LX0YhT/I2OaILOBoEf6F6mHzLeNN16tX43l1tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 17:26:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y1dfkek1ml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KgT60LX0YhT/I2OaILOBoEf6F6mHzLeNN16tX43l1tk="
+        },
+        {
+          "Name": "label",
+          "Value": "css/view-manage.css"
         }
       ]
     },

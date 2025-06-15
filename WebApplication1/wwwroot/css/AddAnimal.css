@@ -1,4 +1,4 @@
-/* Algemene layout */
+
 body {
     background-color: #f0f4f8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,11 +7,11 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #17a2b8; /* Frisse turquoise-blauwe kleur */
+    color: #17a2b8; 
     font-weight: 700;
 }
 
-/* Formulier container */
+
 form {
     background-color: #ffffff;
     padding: 30px;
@@ -19,7 +19,7 @@ form {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Formgroep opmaak */
+
 .form-group {
     margin-bottom: 22px;
 }
@@ -39,7 +39,7 @@ form {
     outline: none;
 }
 
-/* Labels */
+
 label.control-label {
     font-weight: 600;
     color: #495057;
@@ -47,13 +47,13 @@ label.control-label {
     display: block;
 }
 
-/* Validatie fouten */
+
 .text-danger {
-    color: #e63946; /* Helderder rood */
+    color: #e63946; 
     font-size: 0.875rem;
 }
 
-/* Knoppen */
+
 .btn-primary {
     background-color: #17a2b8;
     border-color: #17a2b8;

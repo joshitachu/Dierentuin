@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\view-manage.css",
+      "PackagePath": "staticwebassets\\css\\view-manage.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
