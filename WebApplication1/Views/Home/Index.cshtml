@@ -1,51 +1,59 @@
-﻿@{
+﻿@model WebApplication1.Models.Zoo
+@{
     ViewData["Title"] = "Zoo Management";
 }
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/home.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="/css/home.css" />
 </head>
+<body>
+    @if (ViewBag.ShowForm == true)
+    {
+        <h1 class="heading">Welcome to Your New Zoo</h1>
+        <p class="subheading">Please enter your Zoo name and location to get started:</p>
 
+        <form method="post" action="/Home/CreateZoo" class="form-container">
+            <div class="form-group">
+                <label for="Name">Zoo Name:</label>
+                <input type="text" id="Name" name="name" required class="form-input" />
+            </div>
+            <div class="form-group">
+                <label for="Location">Location:</label>
+                <input type="text" id="Location" name="location" required class="form-input" />
+            </div>
+            <button type="submit" class="btn">Create Zoo</button>
+        </form>
+    }
+    else
+    {
+        <h1 class="heading">Welcome to @Model.Name</h1>
+        <p class="subheading">Location: @Model.Location</p>
 
-@if (ViewBag.ShowForm == true)
-{
-    <h1 class="heading">Welcome to Your New Zoo</h1>
-    <p class="subheading">Please enter your Zoo name and location to get started:</p>
-
-    <form method="post" action="/Home/CreateZoo" class="form-container">
-        <div class="form-group">
-            <label for="Name">Zoo Name:</label>
-            <input type="text" id="Name" name="name" required class="form-input">
+        <div class="actions-container">
+            <h2 class="section-heading">What would you like to do?</h2>
+            <div class="button-group">
+                <button onclick="window.location.href='/Animals/Create'" class="btn">Add a new animal</button>
+                <button onclick="window.location.href='/Animals/Index'" class="btn">View and manage all animals</button>
+                <button onclick="window.location.href='/Categories/Index'" class="btn">Manage categories</button>
+                <button onclick="window.location.href='/Enclosures/Index'" class="btn">Organize enclosures</button>
+                <button onclick="window.location.href='/Zoos/Sunrise'" class="btn">Perform sunrise action</button>
+                <button onclick="window.location.href='/Zoos/Sunset'" class="btn">Perform sunset action</button>
+                <button onclick="window.location.href='/Zoos/FeedingTime'" class="btn">Perform feeding time action</button>
+                <button onclick="window.location.href='/Zoos/CheckConstraints'" class="btn">Check enclosure constraints</button>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="Location">Location:</label>
-            <input type="text" id="Location" name="location" required class="form-input">
-        </div>
-        <button type="submit" class="btn">Create Zoo</button>
-    </form>
-}
-else
-{
-    <h1 class="heading">Welcome to @Model.Name</h1>
-    <p class="subheading">Location: @Model.Location</p>
 
-    <div class="actions-container">
-        <h2 class="section-heading">What would you like to do?</h2>
-        <div class="button-group">
-            <button onclick="window.location.href='/Animals/Create'" class="btn">Add a new animal</button>
-            <button onclick="window.location.href='/Animals/Index'" class="btn">View and manage all animals</button>
-            <button onclick="window.location.href='/Categories/Index'" class="btn">Manage categories</button>
-            <button onclick="window.location.href='/Enclosures/Index'" class="btn">Organize enclosures</button>
-            <button onclick="window.location.href='/Zoos/Sunrise'" class="btn">Perform sunrise action</button>
-            <button onclick="window.location.href='/Zoos/Sunset'" class="btn">Perform sunset action</button>
-            <button onclick="window.location.href='/Zoos/FeedingTime'" class="btn">Perform feeding time action</button>
-            <button onclick="window.location.href='/Zoos/CheckConstraints'" class="btn">Check enclosure constraints</button>
+        <div class="actions-container">
+            <h2 class="section-heading">Zoo Actions</h2>
+            <div class="button-group">
+                <button onclick="window.location.href='/Zoos/AutoAssign'" class="btn">Auto Assign Animals to Enclosures</button>
+            </div>
         </div>
-    </div>
-
-    <div class="actions-container">
-        <h2 class="section-heading">Zoo Actions</h2>
-        <div class="button-group">
-            <button onclick="window.location.href='/Zoos/AutoAssign'" class="btn">Auto Assign Animals to Enclosures</button>
-        </div>
-    </div>
-}
+    }
+</body>
+</html>
