@@ -10,32 +10,31 @@
     --color-success: #28a745;
     --color-success-hover: #218838;
     --text-color: #333;
-    --bg-light: #f0f4f8;
+    --bg-light: #f8f9fa;
     --bg-white: #fff;
-    --shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     --border-radius: 10px;
 }
 
-
 body {
-    background-color: var(--bg-light);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
     color: var(--text-color);
     margin: 20px;
 }
 
 h1, h2, h3 {
+    color: #1c80d1;
     margin-bottom: 20px;
     font-weight: 700;
-    color: #2e3d49;
 }
 
-/* FORMULIEREN */
 form {
     background-color: var(--bg-white);
     padding: 30px;
     border-radius: 14px;
     box-shadow: var(--shadow);
+    max-width: 600px;
     margin-bottom: 30px;
 }
 
@@ -43,22 +42,27 @@ form {
     margin-bottom: 22px;
 }
 
-.form-control {
-    border: 1px solid #ced4da;
+input.form-control,
+textarea.form-control,
+select.form-control {
     border-radius: var(--border-radius);
+    border: 1px solid #ced4da;
     padding: 10px 14px;
     font-size: 1rem;
     background-color: #fefefe;
     transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%;
 }
 
-.form-control:focus {
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus {
     border-color: var(--color-primary);
     box-shadow: 0 0 0 0.15rem rgba(23, 162, 184, 0.25);
     outline: none;
 }
 
-label.control-label {
+label {
     font-weight: 600;
     color: #495057;
     margin-bottom: 6px;
@@ -70,9 +74,8 @@ label.control-label {
     font-size: 0.875rem;
 }
 
-
 .btn {
-    padding: 10px 24px;
+    padding: 10px 20px;
     border-radius: var(--border-radius);
     font-weight: 600;
     color: #fff;
@@ -80,8 +83,8 @@ label.control-label {
     transition: background-color 0.3s ease;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
-
 
 .btn-primary {
     background-color: var(--color-primary);
@@ -90,14 +93,12 @@ label.control-label {
     background-color: var(--color-primary-hover);
 }
 
-
 .btn-secondary {
     background-color: var(--color-secondary);
 }
 .btn-secondary:hover {
     background-color: var(--color-secondary-hover);
 }
-
 
 .btn-success {
     background-color: var(--color-success);
@@ -106,6 +107,12 @@ label.control-label {
     background-color: var(--color-success-hover);
 }
 
+.btn-danger {
+    background-color: var(--color-danger);
+}
+.btn-danger:hover {
+    background-color: var(--color-danger-hover);
+}
 
 .btn-warning {
     background-color: var(--color-warning);
@@ -114,21 +121,11 @@ label.control-label {
     background-color: var(--color-warning-hover);
 }
 
-
-.btn-danger {
-    background-color: var(--color-danger);
-}
-.btn-danger:hover {
-    background-color: var(--color-danger-hover);
-}
-
-
 .btn-sm {
     padding: 6px 14px;
     font-size: 0.875rem;
     border-radius: 8px;
 }
-
 
 table.table {
     background-color: var(--bg-white);
@@ -138,6 +135,7 @@ table.table {
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: var(--shadow);
+    margin-top: 20px;
 }
 
 table.table th,
@@ -156,4 +154,11 @@ table.table th {
 
 table.table tr:hover {
     background-color: #f1f3f5;
+}
+
+table .btn {
+    margin-right: 6px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
 }

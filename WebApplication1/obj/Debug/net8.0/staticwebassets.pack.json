@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\WebApplication1.nkwg0y5zjm.bundle.scp.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
+      "PackagePath": "staticwebassets\\css\\ActionResultListAnimals.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
+      "PackagePath": "staticwebassets\\css\\ActionresultsAnimals.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
       "PackagePath": "staticwebassets\\css\\AddAnimal.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Categories.css",
+      "PackagePath": "staticwebassets\\css\\Categories.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
+      "PackagePath": "staticwebassets\\css\\DeleteAnimal.css"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",

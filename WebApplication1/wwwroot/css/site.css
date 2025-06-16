@@ -1,5 +1,18 @@
+:root {
+  --primary-color: #2d5d7b;
+  --primary-hover: #1b3e56;
+  --btn-bg: #f0f0f0;
+  --btn-border: #ccc;
+  --btn-color: #333;
+  --btn-hover-bg: #e0e0e0;
+  --btn-hover-color: #000;
+  --focus-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,49 +21,46 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   margin-bottom: 60px;
+  background: url('image.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 .btn {
   display: inline-block;
   margin: 5px;
   padding: 8px 12px;
-  background-color: #f0f0f0; 
-  border: 1px solid #ccc; 
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
   border-radius: 4px;
-  text-decoration: none; 
+  text-decoration: none;
   font-size: 14px;
-  color: #333; 
+  color: var(--btn-color);
   cursor: pointer;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .btn:hover {
-  background-color: #e0e0e0; 
-  color: #000; 
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-hover-color);
 }
 
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: var(--focus-shadow);
+  outline: none;
+}
 
 .action-buttons {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 10px; 
-  justify-content: start; 
-}
-body {
-    background: url('image.png') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
 }

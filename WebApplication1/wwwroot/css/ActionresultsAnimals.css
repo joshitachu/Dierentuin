@@ -1,0 +1,41 @@
+h1 {
+    color: #28a745;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+a.btn-primary {
+    display: inline-block;
+    background-color: #20c997;
+    border-color: #20c997;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: max-content;
+}
+
+a.btn-primary:hover {
+    background-color: #17a589;
+    color: white;
+    text-decoration: none;
+}

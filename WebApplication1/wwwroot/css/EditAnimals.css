@@ -1,17 +1,34 @@
-form {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    margin-left: 0;
-    margin-right: auto;
-    width: 600px; 
+:root {
+    --primary: #17a2b8;
+    --primary-hover: #1a9fa8;
+    --secondary: #6f42c1;
+    --secondary-hover: #b61bb6;
+    --danger: #dc3545;
+    --focus: #007bff;
+    --form-bg: #ffffff;
+    --text-dark: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: var(--text-dark);
+    margin: 30px;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: #17a2b8; 
+    color: var(--primary);
     font-weight: 700;
+}
+
+form {
+    background-color: var(--form-bg);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 600px;
 }
 
 .form-group {
@@ -22,7 +39,7 @@ h1 {
     font-weight: 600;
     display: block;
     margin-bottom: 8px;
-    color: #333;
+    color: var(--text-dark);
 }
 
 .form-control {
@@ -35,14 +52,14 @@ h1 {
 }
 
 .form-control:focus {
-    border-color: #007bff;
+    border-color: var(--focus);
     box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
     outline: none;
 }
 
 .text-danger {
     font-size: 0.9rem;
-    color: #dc3545;
+    color: var(--danger);
     margin-top: 5px;
     display: block;
 }
@@ -52,25 +69,29 @@ button.btn {
     font-weight: 600;
     border-radius: 8px;
     font-size: 16px;
+    cursor: pointer;
+    border: none;
 }
 
 button[type="submit"].btn-primary {
-    background-color: #17a2b8;
-    border: none;
+    background-color: var(--primary);
     color: #fff;
 }
 
 button[type="submit"].btn-primary:hover {
-    background-color: #1a9fa8;
+    background-color: var(--primary-hover);
 }
 
 a.btn-secondary {
     margin-left: 10px;
-    background-color: #6f42c1;
+    background-color: var(--secondary);
     color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
 }
 
 a.btn-secondary:hover {
-    background-color: #b61bb6;
+    background-color: var(--secondary-hover);
     text-decoration: none;
 }
