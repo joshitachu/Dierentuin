@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\AddAnimal.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
+      "PackagePath": "staticwebassets\\css\\AssignAnimalCategorie.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Categories.css",
       "PackagePath": "staticwebassets\\css\\Categories.css"
     },
@@ -25,8 +29,24 @@
       "PackagePath": "staticwebassets\\css\\DeleteAnimal.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
+      "PackagePath": "staticwebassets\\css\\DeleteCategories.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
+      "PackagePath": "staticwebassets\\css\\DetailsAnimal.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
+      "PackagePath": "staticwebassets\\css\\DetailsCategories.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
       "PackagePath": "staticwebassets\\css\\EditAnimals.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
+      "PackagePath": "staticwebassets\\css\\EditCategories.css"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\home.css",
