@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/Home.css" />
 </head>
 <body>
     @if (ViewBag.ShowForm == true)
@@ -37,10 +37,10 @@
         <div class="actions-container">
             <h2 class="section-heading">What would you like to do?</h2>
             <div class="button-group">
-                <button onclick="window.location.href='/Animals/Create'" class="btn">Add a new animal</button>
+<button onclick="window.location.href='/Animals/Create'" class="btn btn-yellow">Add a new animal</button>
                 <button onclick="window.location.href='/Animals/Index'" class="btn">View and manage all animals</button>
                 <button onclick="window.location.href='/Categories/Index'" class="btn">Manage categories</button>
-                <button onclick="window.location.href='/Enclosures/Index'" class="btn">Organize enclosures</button>
+                <button onclick="window.location.href='/Enclosures/Index'" class="btn btn-pink">Organize enclosures</button>
                 <button onclick="window.location.href='/Zoos/Sunrise'" class="btn">Perform sunrise action</button>
                 <button onclick="window.location.href='/Zoos/Sunset'" class="btn">Perform sunset action</button>
                 <button onclick="window.location.href='/Zoos/FeedingTime'" class="btn">Perform feeding time action</button>

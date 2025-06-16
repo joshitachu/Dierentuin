@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pin9TFNnf6UnhnnGELSs85w0xiH5CWqp2nvwOSuDKBc=",
+  "Hash": "ufmo8DRazsMd2m6fdKEeCTG2R///Wh1V7P6gAcMJkdo=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -325,19 +325,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9h3sunnm29",
-      "Integrity": "Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY=",
+      "Fingerprint": "nkg2z10aq0",
+      "Integrity": "mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\EditCategories.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\home.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
-      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "RelativePath": "css/Home#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -346,11 +346,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c8yoqk53wm",
-      "Integrity": "TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs=",
+      "Fingerprint": "zospri8kuo",
+      "Integrity": "g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\home.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home.css"
     },
     {
       "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\image.png",
@@ -2551,51 +2551,6 @@
       ]
     },
     {
-      "Route": "css/EditCategories.9h3sunnm29.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1839"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:56:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9h3sunnm29"
-        },
-        {
-          "Name": "label",
-          "Value": "css/EditCategories.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY="
-        }
-      ]
-    },
-    {
       "Route": "css/EditCategories.css",
       "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "Selectors": [],
@@ -2614,11 +2569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY=\""
+          "Value": "\"mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:56:43 GMT"
+          "Value": "Mon, 16 Jun 2025 14:57:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2628,13 +2583,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY="
+          "Value": "sha256-mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY="
         }
       ]
     },
     {
-      "Route": "css/home.c8yoqk53wm.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\home.css",
+      "Route": "css/EditCategories.nkg2z10aq0.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2643,7 +2598,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2039"
+          "Value": "1839"
         },
         {
           "Name": "Content-Type",
@@ -2651,11 +2606,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs=\""
+          "Value": "\"mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:40:06 GMT"
+          "Value": "Mon, 16 Jun 2025 14:57:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2665,21 +2620,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c8yoqk53wm"
+          "Value": "nkg2z10aq0"
         },
         {
           "Name": "label",
-          "Value": "css/home.css"
+          "Value": "css/EditCategories.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs="
+          "Value": "sha256-mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY="
         }
       ]
     },
     {
-      "Route": "css/home.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\home.css",
+      "Route": "css/Home.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2688,7 +2643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2039"
+          "Value": "2397"
         },
         {
           "Name": "Content-Type",
@@ -2696,11 +2651,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs=\""
+          "Value": "\"g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:40:06 GMT"
+          "Value": "Mon, 16 Jun 2025 15:14:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2710,7 +2665,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs="
+          "Value": "sha256-g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home.zospri8kuo.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:14:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zospri8kuo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI="
         }
       ]
     },

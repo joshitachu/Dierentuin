@@ -192,29 +192,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9h3sunnm29</Fingerprint>
-      <Integrity>Y3X85WsqR9KYHD/rzXdpS49NaTLYdOfYrR5HW+S4pcY=</Integrity>
+      <Fingerprint>nkg2z10aq0</Fingerprint>
+      <Integrity>mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\EditCategories.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home.css'))">
       <SourceType>Package</SourceType>
       <SourceId>WebApplication1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebApplication1</BasePath>
-      <RelativePath>css/home.css</RelativePath>
+      <RelativePath>css/Home.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c8yoqk53wm</Fingerprint>
-      <Integrity>TP3e5I4tEUQa/o/F/+WgijsIIXmtrf3HfmDf5ptjUJs=</Integrity>
+      <Fingerprint>zospri8kuo</Fingerprint>
+      <Integrity>g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\image.png'))">
       <SourceType>Package</SourceType>
