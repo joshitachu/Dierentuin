@@ -10,9 +10,9 @@ namespace WebApplication1.Data
         public ZooDbContext(DbContextOptions<ZooDbContext> options)
                 : base(options)
         {
-            
+
         }
-        
+
         private string connectionString = "Server=(localdb)\\mssqllocaldb;Database=Dierentuin1;Trusted_Connection=True;MultipleActiveResultSets=true";
 
         public DbSet<Animal> Animals { get; set; }
@@ -26,9 +26,19 @@ namespace WebApplication1.Data
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Voeg eventueel aanvullende configuratie toe hier, zoals relaties, indexen, etc.
-            base.OnModelCreating(modelBuilder);
-        }
+{
+    base.OnModelCreating(modelBuilder);
+
+    modelBuilder.Entity<Category>().HasData(
+        new Category { Id = 1, Name = "Zoogdieren" },
+        new Category { Id = 2, Name = "Vogels" }
+    );
+
+    modelBuilder.Entity<Animal>().HasData(
+    new Animal { Id = 1, Name = "Leeuw", Prey = "Gazelle", Species = "Panthera leo", CategoryId = 1 }
+    
+);
+} 
+        
     }
 }

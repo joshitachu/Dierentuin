@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication1.Data;
 
@@ -10,9 +11,11 @@ using WebApplication1.Data;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(ZooDbContext))]
-    partial class ZooDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250621180808_SeedData")]
+    partial class SeedData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -85,6 +88,19 @@ namespace WebApplication1.Migrations
                             SecurityRequirement = 0,
                             SpaceRequirement = 0.0,
                             Species = "Panthera leo",
+                            activityPattern = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AnimalSize = 0,
+                            CategoryId = 2,
+                            Diet = 0,
+                            Name = "Papegaai",
+                            Prey = "Zaden",
+                            SecurityRequirement = 0,
+                            SpaceRequirement = 0.0,
+                            Species = "Ara",
                             activityPattern = 0
                         });
                 });

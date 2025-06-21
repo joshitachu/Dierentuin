@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\css\\ActionResultListAnimals.css"
     },
     {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResults.css",
+      "PackagePath": "staticwebassets\\css\\ActionResults.css"
+    },
+    {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
       "PackagePath": "staticwebassets\\css\\ActionresultsAnimals.css"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
       "PackagePath": "staticwebassets\\css\\AddAnimal.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
+      "PackagePath": "staticwebassets\\css\\AssignAnimal.css"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
@@ -47,6 +55,10 @@
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "PackagePath": "staticwebassets\\css\\EditCategories.css"
+    },
+    {
+      "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Enclosures.css",
+      "PackagePath": "staticwebassets\\css\\Enclosures.css"
     },
     {
       "Id": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",

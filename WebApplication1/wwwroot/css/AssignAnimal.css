@@ -1,0 +1,60 @@
+.assign-container {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.assign-form {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.assign-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.assign-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.assign-form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-assign {
+    background-color: #28a745;
+}
+
+.btn-assign:hover {
+    background-color: #218838;
+}
+
+.btn-back {
+    background-color: #6c757d;
+    margin-left: 10px;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+}

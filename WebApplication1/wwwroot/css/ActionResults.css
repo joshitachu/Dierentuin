@@ -1,0 +1,46 @@
+.results-container {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.results-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 600px;
+    
+}
+
+.results-list li {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.no-results {
+    margin: 20px 0;
+    font-style: italic;
+    color: #aaa;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
