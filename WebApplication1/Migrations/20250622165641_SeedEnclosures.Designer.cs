@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication1.Data;
 
@@ -10,9 +11,11 @@ using WebApplication1.Data;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(ZooDbContext))]
-    partial class ZooDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250622165641_SeedEnclosures")]
+    partial class SeedEnclosures
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -495,7 +498,7 @@ namespace WebApplication1.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 101,
+                            Id = 1,
                             Climate = 0,
                             Description = "Large grassland area for African animals.",
                             Habitat = 3,
@@ -505,93 +508,13 @@ namespace WebApplication1.Migrations
                         },
                         new
                         {
-                            Id = 102,
+                            Id = 2,
                             Climate = 2,
                             Description = "Cold environment for penguins.",
                             Habitat = 1,
                             Name = "Penguin Cove",
                             Size = 800.0,
                             securityLevel = 2
-                        },
-                        new
-                        {
-                            Id = 103,
-                            Climate = 0,
-                            Description = "Hot and dry enclosure for desert species.",
-                            Habitat = 2,
-                            Name = "Desert Dunes",
-                            Size = 600.0,
-                            securityLevel = 0
-                        },
-                        new
-                        {
-                            Id = 104,
-                            Climate = 0,
-                            Description = "Dense forest area for tropical animals.",
-                            Habitat = 0,
-                            Name = "Rainforest Retreat",
-                            Size = 950.0,
-                            securityLevel = 1
-                        },
-                        new
-                        {
-                            Id = 105,
-                            Climate = 2,
-                            Description = "Chilly area for polar bears and arctic foxes.",
-                            Habitat = 3,
-                            Name = "Arctic Tundra",
-                            Size = 1100.0,
-                            securityLevel = 2
-                        },
-                        new
-                        {
-                            Id = 106,
-                            Climate = 0,
-                            Description = "Lush forest enclosure for monkeys and birds.",
-                            Habitat = 0,
-                            Name = "Jungle Jump",
-                            Size = 720.0,
-                            securityLevel = 1
-                        },
-                        new
-                        {
-                            Id = 107,
-                            Climate = 1,
-                            Description = "Open space for giraffes and zebras.",
-                            Habitat = 3,
-                            Name = "Giraffe Plains",
-                            Size = 1300.0,
-                            securityLevel = 0
-                        },
-                        new
-                        {
-                            Id = 108,
-                            Climate = 0,
-                            Description = "Watery habitat for crocodiles.",
-                            Habitat = 1,
-                            Name = "Crocodile Creek",
-                            Size = 500.0,
-                            securityLevel = 2
-                        },
-                        new
-                        {
-                            Id = 109,
-                            Climate = 1,
-                            Description = "Sheltered desert oasis for camels and reptiles.",
-                            Habitat = 2,
-                            Name = "Oasis Haven",
-                            Size = 780.0,
-                            securityLevel = 1
-                        },
-                        new
-                        {
-                            Id = 110,
-                            Climate = 1,
-                            Description = "Mild climate zone for deer and small mammals.",
-                            Habitat = 3,
-                            Name = "Temperate Trails",
-                            Size = 850.0,
-                            securityLevel = 0
                         });
                 });
 
