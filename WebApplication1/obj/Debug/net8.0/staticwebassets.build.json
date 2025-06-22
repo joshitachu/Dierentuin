@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LwsGECH8aZudIiFrTVmBX8c54oMOIL8/wRSsZS1zt3c=",
+  "Hash": "j3BphXs2hYPtLhdbS9cRBiIsEDZJy00buMIA56aONKY=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WebApplication1\\wwwroot",
       "Source": "WebApplication1",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "Pattern": "**"
     }
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "C:\\Users\\imadm\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -77,13 +77,13 @@
       "Integrity": "ejJQRg6o4bhbH49oqcGKR7M0ouOyJdb2CuS9HRDquR4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css"
+      "OriginalItemSpec": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "5+DOjaplZvAeNTOJ3cntaUwtzSSbH//TjpBS35IzHsw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/ActionResultListAnimals#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ActionResultListAnimals.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResults.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResults.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/ActionResults#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ActionResults.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/ActionresultsAnimals#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ActionresultsAnimals.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/AddAnimal#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,31 @@
       "OriginalItemSpec": "wwwroot\\css\\AddAnimal.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\animals.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/animals#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y7otf90vz3",
+      "Integrity": "Iu1BA9iPurynzp2S5Kep8J3z8osHpWepxPpcOHm5GZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\animals.png"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/AssignAnimal#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AssignAnimal.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/AssignAnimalCategorie#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AssignAnimalCategorie.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Categories.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Categories.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/Categories#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +269,31 @@
       "OriginalItemSpec": "wwwroot\\css\\Categories.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\CreateEnclosure.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/CreateEnclosure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7sp8say09k",
+      "Integrity": "h1g3xE+q4lwu0vbBKiPJb0ikMSWHDtQz3cL/T1hMNHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CreateEnclosure.css"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/DeleteAnimal#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\DeleteAnimal.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/DeleteCategories#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +332,52 @@
       "OriginalItemSpec": "wwwroot\\css\\DeleteCategories.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteEnclosure.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/DeleteEnclosure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnpm5z480s",
+      "Integrity": "pwONOpFuPIjsgvqWgff9bGb9Tuurqppufp5ueBRITnw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DeleteEnclosure.css"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetaillsEnclosure.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/DetaillsEnclosure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v6cv44bc1a",
+      "Integrity": "dxOB2K5cWpVm7oSsivb82LI6P0VyX4aJRHJ9CyLBBd4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DetaillsEnclosure.css"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/DetailsAnimal#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\css\\DetailsAnimal.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/DetailsCategories#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -325,17 +409,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1oe331j05r",
-      "Integrity": "ASRprIsMyxBPWUN0KQycgC+2rDxOPWWUGKSSaMNpJBI=",
+      "Fingerprint": "yzsxxqz9bx",
+      "Integrity": "8hWX9seBOIjdfifZeM5NwVTrgeGWENunxO7ejQaTq2M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\DetailsCategories.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/EditAnimals#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\css\\EditAnimals.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/EditCategories#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -367,17 +451,59 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nkg2z10aq0",
-      "Integrity": "mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=",
+      "Fingerprint": "fafscemol2",
+      "Integrity": "md9UCny1MuXwE5Y7YytXF5OrSKUbiThkrEQAlIiN2A8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\EditCategories.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Enclosures.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditEnclosure.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/EditEnclosure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t337gc6wua",
+      "Integrity": "h9SIQHUcK5iEclhQCSq0Tc5U4xSsmKh3LSSQm9D1USI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\EditEnclosure.css"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosure.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/Enclosure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u9zsto4abf",
+      "Integrity": "bgGTYtxrGaq2YRrBMg3kUMm/LzCk3J23XlW3gDXA1PE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Enclosure.css"
+    },
+    {
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosures.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/Enclosures#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,12 +521,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Enclosures.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\home.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
-      "RelativePath": "css/Home#[.{fingerprint}]?.css",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -409,38 +535,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zospri8kuo",
-      "Integrity": "g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=",
+      "Fingerprint": "v5bl724fp3",
+      "Integrity": "PSUhcgWGb+20qQKyV59ogCXwWuLNxRjNTzprhhgbzr0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Home.css"
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\image.png",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "css/image#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "x1nk5eh6pi",
-      "Integrity": "S6E11GWvk7WZq/hMjUEucsZoNUlZmdpSGm+IlgGmEx4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\image.png"
-    },
-    {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\site.css",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -451,17 +556,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "45g656bczz",
-      "Integrity": "yLsb4RLBJvWdwucA8nXtcFi0nWPRPnjwjbYLQitBfEg=",
+      "Fingerprint": "bgl4vh8fyj",
+      "Integrity": "m+h+XmEebYQRy8frYzQs7FlhXyRPTeFjDaAWJMfCeuA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\view-manage.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\view-manage.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/view-manage#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\css\\view-manage.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -500,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\js\\site.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -521,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -962,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1004,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1046,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1088,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1130,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1172,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1193,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1256,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1277,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1361,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1403,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1424,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1445,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1466,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1508,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1529,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1613,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1634,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1676,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1697,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1795,7 +1900,7 @@
     },
     {
       "Route": "css/ActionResultListAnimals.3cggsq7ua1.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1816,7 +1921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:00:54 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1840,7 +1945,7 @@
     },
     {
       "Route": "css/ActionResultListAnimals.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResultListAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1861,7 +1966,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:00:54 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1877,7 +1982,7 @@
     },
     {
       "Route": "css/ActionResults.8p89kzqoer.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResults.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResults.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1898,7 +2003,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:28:55 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1922,7 +2027,7 @@
     },
     {
       "Route": "css/ActionResults.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionResults.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionResults.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1943,7 +2048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:28:55 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1959,7 +2064,7 @@
     },
     {
       "Route": "css/ActionresultsAnimals.2ysj9bo3n0.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1980,7 +2085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:01:33 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2004,7 +2109,7 @@
     },
     {
       "Route": "css/ActionresultsAnimals.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\ActionresultsAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2025,7 +2130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:01:33 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2041,7 +2146,7 @@
     },
     {
       "Route": "css/AddAnimal.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2062,7 +2167,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:02:55 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2078,7 +2183,7 @@
     },
     {
       "Route": "css/AddAnimal.lmmu3w17wg.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AddAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2099,7 +2204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:02:55 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2122,8 +2227,90 @@
       ]
     },
     {
+      "Route": "css/animals.png",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\animals.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "465548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Iu1BA9iPurynzp2S5Kep8J3z8osHpWepxPpcOHm5GZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Iu1BA9iPurynzp2S5Kep8J3z8osHpWepxPpcOHm5GZI="
+        }
+      ]
+    },
+    {
+      "Route": "css/animals.y7otf90vz3.png",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\animals.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "465548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Iu1BA9iPurynzp2S5Kep8J3z8osHpWepxPpcOHm5GZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7otf90vz3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animals.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Iu1BA9iPurynzp2S5Kep8J3z8osHpWepxPpcOHm5GZI="
+        }
+      ]
+    },
+    {
       "Route": "css/AssignAnimal.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2144,7 +2331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:32:25 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2160,7 +2347,7 @@
     },
     {
       "Route": "css/AssignAnimal.h2sj8dv513.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2181,7 +2368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:32:25 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2205,7 +2392,7 @@
     },
     {
       "Route": "css/AssignAnimalCategorie.1qr4rnsqwg.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,7 +2413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:12:58 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2250,7 +2437,7 @@
     },
     {
       "Route": "css/AssignAnimalCategorie.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\AssignAnimalCategorie.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2271,7 +2458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:12:58 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2287,7 +2474,7 @@
     },
     {
       "Route": "css/Categories.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Categories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Categories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2308,7 +2495,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:41:47 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2324,7 +2511,7 @@
     },
     {
       "Route": "css/Categories.y6hkrz4cnf.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Categories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Categories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2345,7 +2532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:41:47 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2368,8 +2555,90 @@
       ]
     },
     {
+      "Route": "css/CreateEnclosure.7sp8say09k.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\CreateEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h1g3xE+q4lwu0vbBKiPJb0ikMSWHDtQz3cL/T1hMNHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7sp8say09k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CreateEnclosure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h1g3xE+q4lwu0vbBKiPJb0ikMSWHDtQz3cL/T1hMNHo="
+        }
+      ]
+    },
+    {
+      "Route": "css/CreateEnclosure.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\CreateEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h1g3xE+q4lwu0vbBKiPJb0ikMSWHDtQz3cL/T1hMNHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h1g3xE+q4lwu0vbBKiPJb0ikMSWHDtQz3cL/T1hMNHo="
+        }
+      ]
+    },
+    {
       "Route": "css/DeleteAnimal.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2390,7 +2659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:02:53 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2406,7 +2675,7 @@
     },
     {
       "Route": "css/DeleteAnimal.ket813ejg6.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2427,7 +2696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:02:53 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2451,7 +2720,7 @@
     },
     {
       "Route": "css/DeleteCategories.2h77gmmxq3.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2472,7 +2741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:41:41 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2496,7 +2765,7 @@
     },
     {
       "Route": "css/DeleteCategories.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2517,7 +2786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:41:41 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2532,8 +2801,172 @@
       ]
     },
     {
+      "Route": "css/DeleteEnclosure.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwONOpFuPIjsgvqWgff9bGb9Tuurqppufp5ueBRITnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwONOpFuPIjsgvqWgff9bGb9Tuurqppufp5ueBRITnw="
+        }
+      ]
+    },
+    {
+      "Route": "css/DeleteEnclosure.dnpm5z480s.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DeleteEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwONOpFuPIjsgvqWgff9bGb9Tuurqppufp5ueBRITnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnpm5z480s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DeleteEnclosure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwONOpFuPIjsgvqWgff9bGb9Tuurqppufp5ueBRITnw="
+        }
+      ]
+    },
+    {
+      "Route": "css/DetaillsEnclosure.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetaillsEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dxOB2K5cWpVm7oSsivb82LI6P0VyX4aJRHJ9CyLBBd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dxOB2K5cWpVm7oSsivb82LI6P0VyX4aJRHJ9CyLBBd4="
+        }
+      ]
+    },
+    {
+      "Route": "css/DetaillsEnclosure.v6cv44bc1a.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetaillsEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dxOB2K5cWpVm7oSsivb82LI6P0VyX4aJRHJ9CyLBBd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v6cv44bc1a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DetaillsEnclosure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dxOB2K5cWpVm7oSsivb82LI6P0VyX4aJRHJ9CyLBBd4="
+        }
+      ]
+    },
+    {
       "Route": "css/DetailsAnimal.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2554,7 +2987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:58:43 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2570,7 +3003,7 @@
     },
     {
       "Route": "css/DetailsAnimal.qvnx5m58ds.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsAnimal.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,7 +3024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:58:43 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2614,53 +3047,8 @@
       ]
     },
     {
-      "Route": "css/DetailsCategories.1oe331j05r.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1349"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ASRprIsMyxBPWUN0KQycgC+2rDxOPWWUGKSSaMNpJBI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:53:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1oe331j05r"
-        },
-        {
-          "Name": "label",
-          "Value": "css/DetailsCategories.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ASRprIsMyxBPWUN0KQycgC+2rDxOPWWUGKSSaMNpJBI="
-        }
-      ]
-    },
-    {
       "Route": "css/DetailsCategories.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2669,7 +3057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1349"
+          "Value": "1351"
         },
         {
           "Name": "Content-Type",
@@ -2677,11 +3065,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ASRprIsMyxBPWUN0KQycgC+2rDxOPWWUGKSSaMNpJBI=\""
+          "Value": "\"8hWX9seBOIjdfifZeM5NwVTrgeGWENunxO7ejQaTq2M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:53:20 GMT"
+          "Value": "Sun, 22 Jun 2025 12:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2691,13 +3079,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ASRprIsMyxBPWUN0KQycgC+2rDxOPWWUGKSSaMNpJBI="
+          "Value": "sha256-8hWX9seBOIjdfifZeM5NwVTrgeGWENunxO7ejQaTq2M="
+        }
+      ]
+    },
+    {
+      "Route": "css/DetailsCategories.yzsxxqz9bx.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\DetailsCategories.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8hWX9seBOIjdfifZeM5NwVTrgeGWENunxO7ejQaTq2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:47:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yzsxxqz9bx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DetailsCategories.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8hWX9seBOIjdfifZeM5NwVTrgeGWENunxO7ejQaTq2M="
         }
       ]
     },
     {
       "Route": "css/EditAnimals.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2718,7 +3151,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:39:36 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2734,7 +3167,7 @@
     },
     {
       "Route": "css/EditAnimals.uste3mgnr2.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditAnimals.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2755,7 +3188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:39:36 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2779,7 +3212,7 @@
     },
     {
       "Route": "css/EditCategories.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2788,7 +3221,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1839"
+          "Value": "1841"
         },
         {
           "Name": "Content-Type",
@@ -2796,11 +3229,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=\""
+          "Value": "\"md9UCny1MuXwE5Y7YytXF5OrSKUbiThkrEQAlIiN2A8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:57:42 GMT"
+          "Value": "Sun, 22 Jun 2025 12:46:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2810,13 +3243,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY="
+          "Value": "sha256-md9UCny1MuXwE5Y7YytXF5OrSKUbiThkrEQAlIiN2A8="
         }
       ]
     },
     {
-      "Route": "css/EditCategories.nkg2z10aq0.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\EditCategories.css",
+      "Route": "css/EditCategories.fafscemol2.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditCategories.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2825,7 +3258,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1839"
+          "Value": "1841"
         },
         {
           "Name": "Content-Type",
@@ -2833,11 +3266,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY=\""
+          "Value": "\"md9UCny1MuXwE5Y7YytXF5OrSKUbiThkrEQAlIiN2A8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:57:42 GMT"
+          "Value": "Sun, 22 Jun 2025 12:46:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2847,7 +3280,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nkg2z10aq0"
+          "Value": "fafscemol2"
         },
         {
           "Name": "label",
@@ -2855,13 +3288,177 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mRiKkyhCaV75WSRxNf1K5Z3k8i1nCfX+Ao0dkEmpOiY="
+          "Value": "sha256-md9UCny1MuXwE5Y7YytXF5OrSKUbiThkrEQAlIiN2A8="
+        }
+      ]
+    },
+    {
+      "Route": "css/EditEnclosure.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9SIQHUcK5iEclhQCSq0Tc5U4xSsmKh3LSSQm9D1USI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9SIQHUcK5iEclhQCSq0Tc5U4xSsmKh3LSSQm9D1USI="
+        }
+      ]
+    },
+    {
+      "Route": "css/EditEnclosure.t337gc6wua.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\EditEnclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9SIQHUcK5iEclhQCSq0Tc5U4xSsmKh3LSSQm9D1USI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t337gc6wua"
+        },
+        {
+          "Name": "label",
+          "Value": "css/EditEnclosure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9SIQHUcK5iEclhQCSq0Tc5U4xSsmKh3LSSQm9D1USI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Enclosure.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bgGTYtxrGaq2YRrBMg3kUMm/LzCk3J23XlW3gDXA1PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:34:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bgGTYtxrGaq2YRrBMg3kUMm/LzCk3J23XlW3gDXA1PE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Enclosure.u9zsto4abf.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bgGTYtxrGaq2YRrBMg3kUMm/LzCk3J23XlW3gDXA1PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Jun 2025 12:34:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u9zsto4abf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Enclosure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bgGTYtxrGaq2YRrBMg3kUMm/LzCk3J23XlW3gDXA1PE="
         }
       ]
     },
     {
       "Route": "css/Enclosures.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Enclosures.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosures.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2882,7 +3479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:22:13 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2898,7 +3495,7 @@
     },
     {
       "Route": "css/Enclosures.zm1vm0ad8p.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Enclosures.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\Enclosures.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2919,7 +3516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:22:13 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2942,8 +3539,8 @@
       ]
     },
     {
-      "Route": "css/Home.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
+      "Route": "css/home.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2952,7 +3549,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2397"
+          "Value": "2399"
         },
         {
           "Name": "Content-Type",
@@ -2960,11 +3557,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=\""
+          "Value": "\"PSUhcgWGb+20qQKyV59ogCXwWuLNxRjNTzprhhgbzr0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:14:11 GMT"
+          "Value": "Sun, 22 Jun 2025 12:47:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2974,13 +3571,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI="
+          "Value": "sha256-PSUhcgWGb+20qQKyV59ogCXwWuLNxRjNTzprhhgbzr0="
         }
       ]
     },
     {
-      "Route": "css/Home.zospri8kuo.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\Home.css",
+      "Route": "css/home.v5bl724fp3.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2989,7 +3586,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2397"
+          "Value": "2399"
         },
         {
           "Name": "Content-Type",
@@ -2997,11 +3594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI=\""
+          "Value": "\"PSUhcgWGb+20qQKyV59ogCXwWuLNxRjNTzprhhgbzr0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:14:11 GMT"
+          "Value": "Sun, 22 Jun 2025 12:47:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3011,21 +3608,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zospri8kuo"
+          "Value": "v5bl724fp3"
         },
         {
           "Name": "label",
-          "Value": "css/Home.css"
+          "Value": "css/home.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g2D5UedyAxZK37JLBMHfk70+Svwt+P5r5cHIa9DcvoI="
+          "Value": "sha256-PSUhcgWGb+20qQKyV59ogCXwWuLNxRjNTzprhhgbzr0="
         }
       ]
     },
     {
-      "Route": "css/image.png",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\image.png",
+      "Route": "css/site.bgl4vh8fyj.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3034,89 +3631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1488041"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S6E11GWvk7WZq/hMjUEucsZoNUlZmdpSGm+IlgGmEx4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 17:52:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-S6E11GWvk7WZq/hMjUEucsZoNUlZmdpSGm+IlgGmEx4="
-        }
-      ]
-    },
-    {
-      "Route": "css/image.x1nk5eh6pi.png",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\image.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1488041"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S6E11GWvk7WZq/hMjUEucsZoNUlZmdpSGm+IlgGmEx4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 17:52:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "x1nk5eh6pi"
-        },
-        {
-          "Name": "label",
-          "Value": "css/image.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S6E11GWvk7WZq/hMjUEucsZoNUlZmdpSGm+IlgGmEx4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.45g656bczz.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1335"
+          "Value": "1337"
         },
         {
           "Name": "Content-Type",
@@ -3124,11 +3639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLsb4RLBJvWdwucA8nXtcFi0nWPRPnjwjbYLQitBfEg=\""
+          "Value": "\"m+h+XmEebYQRy8frYzQs7FlhXyRPTeFjDaAWJMfCeuA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:40:23 GMT"
+          "Value": "Sun, 22 Jun 2025 12:45:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3138,7 +3653,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "45g656bczz"
+          "Value": "bgl4vh8fyj"
         },
         {
           "Name": "label",
@@ -3146,13 +3661,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yLsb4RLBJvWdwucA8nXtcFi0nWPRPnjwjbYLQitBfEg="
+          "Value": "sha256-m+h+XmEebYQRy8frYzQs7FlhXyRPTeFjDaAWJMfCeuA="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\site.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3161,7 +3676,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1335"
+          "Value": "1337"
         },
         {
           "Name": "Content-Type",
@@ -3169,11 +3684,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLsb4RLBJvWdwucA8nXtcFi0nWPRPnjwjbYLQitBfEg=\""
+          "Value": "\"m+h+XmEebYQRy8frYzQs7FlhXyRPTeFjDaAWJMfCeuA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 13:40:23 GMT"
+          "Value": "Sun, 22 Jun 2025 12:45:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3183,13 +3698,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yLsb4RLBJvWdwucA8nXtcFi0nWPRPnjwjbYLQitBfEg="
+          "Value": "sha256-m+h+XmEebYQRy8frYzQs7FlhXyRPTeFjDaAWJMfCeuA="
         }
       ]
     },
     {
       "Route": "css/view-manage.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\view-manage.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\view-manage.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3210,7 +3725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:03:47 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3226,7 +3741,7 @@
     },
     {
       "Route": "css/view-manage.ezkctpgdnt.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\css\\view-manage.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\css\\view-manage.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3247,7 +3762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 14:03:47 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3271,7 +3786,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\favicon.ico",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3292,7 +3807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3316,7 +3831,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\favicon.ico",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3337,7 +3852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3353,7 +3868,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\js\\site.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3374,7 +3889,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3390,7 +3905,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\js\\site.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3411,7 +3926,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3435,7 +3950,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3456,7 +3971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +3987,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3493,7 +4008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3509,7 +4024,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3530,7 +4045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3554,7 +4069,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3575,7 +4090,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3599,7 +4114,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3620,7 +4135,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3636,7 +4151,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3657,7 +4172,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3681,7 +4196,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3702,7 +4217,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3718,7 +4233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3739,7 +4254,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3763,7 +4278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3784,7 +4299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3800,7 +4315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3821,7 +4336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3845,7 +4360,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3866,7 +4381,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3882,7 +4397,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3903,7 +4418,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3927,7 +4442,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3948,7 +4463,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3964,7 +4479,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3985,7 +4500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4001,7 +4516,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4022,7 +4537,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4046,7 +4561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4067,7 +4582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4091,7 +4606,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4112,7 +4627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4128,7 +4643,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4149,7 +4664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4173,7 +4688,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4194,7 +4709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4210,7 +4725,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4231,7 +4746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4247,7 +4762,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4268,7 +4783,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4284,7 +4799,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4305,7 +4820,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4329,7 +4844,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4350,7 +4865,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4374,7 +4889,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4395,7 +4910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4419,7 +4934,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4440,7 +4955,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4464,7 +4979,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4485,7 +5000,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4501,7 +5016,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4522,7 +5037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4546,7 +5061,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4567,7 +5082,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4583,7 +5098,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4604,7 +5119,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4620,7 +5135,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4641,7 +5156,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4657,7 +5172,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4678,7 +5193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4702,7 +5217,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4723,7 +5238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4747,7 +5262,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4768,7 +5283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4784,7 +5299,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4805,7 +5320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4829,7 +5344,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4850,7 +5365,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4866,7 +5381,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4887,7 +5402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4911,7 +5426,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4932,7 +5447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4948,7 +5463,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4969,7 +5484,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4985,7 +5500,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5006,7 +5521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5030,7 +5545,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5051,7 +5566,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5067,7 +5582,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5088,7 +5603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5112,7 +5627,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5133,7 +5648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5149,7 +5664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5170,7 +5685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5186,7 +5701,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5207,7 +5722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5231,7 +5746,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5252,7 +5767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5268,7 +5783,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5289,7 +5804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5313,7 +5828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5334,7 +5849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5358,7 +5873,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5379,7 +5894,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5403,7 +5918,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5424,7 +5939,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5440,7 +5955,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5461,7 +5976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5485,7 +6000,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5506,7 +6021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5522,7 +6037,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5543,7 +6058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5567,7 +6082,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5588,7 +6103,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5604,7 +6119,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5625,7 +6140,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5649,7 +6164,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5670,7 +6185,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5686,7 +6201,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5707,7 +6222,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5731,7 +6246,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5752,7 +6267,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5768,7 +6283,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5789,7 +6304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5813,7 +6328,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5834,7 +6349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5850,7 +6365,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5871,7 +6386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5895,7 +6410,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5916,7 +6431,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5940,7 +6455,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5961,7 +6476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5977,7 +6492,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5998,7 +6513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6022,7 +6537,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6043,7 +6558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6059,7 +6574,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6080,7 +6595,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6104,7 +6619,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6125,7 +6640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6149,7 +6664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6170,7 +6685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6186,7 +6701,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6207,7 +6722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6231,7 +6746,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6252,7 +6767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6268,7 +6783,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6289,7 +6804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6313,7 +6828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6334,7 +6849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6350,7 +6865,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6371,7 +6886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6395,7 +6910,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6416,7 +6931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6432,7 +6947,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6453,7 +6968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6469,7 +6984,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6490,7 +7005,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6514,7 +7029,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6535,7 +7050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6551,7 +7066,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6572,7 +7087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6596,7 +7111,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6617,7 +7132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6633,7 +7148,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6654,7 +7169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6670,7 +7185,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6691,7 +7206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6715,7 +7230,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6736,7 +7251,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6760,7 +7275,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6781,7 +7296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6797,7 +7312,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6818,7 +7333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6842,7 +7357,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6863,7 +7378,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6879,7 +7394,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6900,7 +7415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6924,7 +7439,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6945,7 +7460,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6961,7 +7476,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6982,7 +7497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6998,7 +7513,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7019,7 +7534,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7043,7 +7558,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7064,7 +7579,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7080,7 +7595,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7101,7 +7616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7125,7 +7640,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7146,7 +7661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7170,7 +7685,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7191,7 +7706,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7207,7 +7722,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7228,7 +7743,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7252,7 +7767,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7273,7 +7788,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7289,7 +7804,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7310,7 +7825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7334,7 +7849,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7355,7 +7870,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7371,7 +7886,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7392,7 +7907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7416,7 +7931,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7437,7 +7952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7453,7 +7968,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7474,7 +7989,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7498,7 +8013,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7519,7 +8034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7535,7 +8050,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7556,7 +8071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7580,7 +8095,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7601,7 +8116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7617,7 +8132,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7638,7 +8153,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7654,7 +8169,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7675,7 +8190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7699,7 +8214,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7720,7 +8235,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7736,7 +8251,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7757,7 +8272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7781,7 +8296,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7802,7 +8317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7826,7 +8341,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7847,7 +8362,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7863,7 +8378,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7884,7 +8399,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7908,7 +8423,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7929,7 +8444,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7953,7 +8468,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7974,7 +8489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7990,7 +8505,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8011,7 +8526,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8027,7 +8542,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8048,7 +8563,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8072,7 +8587,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8093,7 +8608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8109,7 +8624,7 @@
     },
     {
       "Route": "WebApplication1.2inec6yxg7.styles.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8134,7 +8649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Link",
@@ -8158,7 +8673,7 @@
     },
     {
       "Route": "WebApplication1.bundle.scp.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8179,7 +8694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8195,7 +8710,7 @@
     },
     {
       "Route": "WebApplication1.nkwg0y5zjm.bundle.scp.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8216,7 +8731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8240,7 +8755,7 @@
     },
     {
       "Route": "WebApplication1.styles.css",
-      "AssetFile": "c:\\Users\\imadm\\Dierentuin-3\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "c:\\Users\\imadm\\Dierentuin-5\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8265,7 +8780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 16:15:44 GMT"
+          "Value": "Sun, 22 Jun 2025 12:24:01 GMT"
         },
         {
           "Name": "Link",

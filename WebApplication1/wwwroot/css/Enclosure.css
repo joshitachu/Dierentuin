@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8f4fc;
+  color: #023e8a;
+  margin: 20px;
+}
+
+h1 {
+  color: #0077b6;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px #90caf9;
+}
+
+form.form-group {
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+}
+
+input.form-control {
+  border: 2px solid #48cae4;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #023e8a;
+  background-color: #caf0f8;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+input.form-control:focus {
+  outline: none;
+  border-color: #0077b6;
+  background-color: #90e0ef;
+  color: #03045e;
+}
+
+button.btn-primary {
+  background-color: #0096c7;
+  border: none;
+  padding: 8px 20px;
+  font-size: 15px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0077b6;
+}
+
+a.btn {
+  margin: 3px 5px 3px 0;
+  padding: 5px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-success { background-color: #00b4d8; }
+a.btn-success:hover { background-color: #0096c7; }
+
+a.btn-primary { background-color: #0077b6; }
+a.btn-primary:hover { background-color: #005f73; }
+
+a.btn-info { background-color: #48cae4; color: #03045e; }
+a.btn-info:hover { background-color: #0096c7; color: white; }
+
+a.btn-danger { background-color: #d00000; }
+a.btn-danger:hover { background-color: #9b0000; }
+
+a.btn-warning { background-color: #ffb703; color: #03045e; }
+a.btn-warning:hover { background-color: #fb8500; color: white; }
+
+a.btn-secondary { background-color: #3a86ff; }
+a.btn-secondary:hover { background-color: #265ddf; }
+
+a.btn-dark { background-color: #023047; }
+a.btn-dark:hover { background-color: #011f28; }
+
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  background-color: #caf0f8;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table.table thead {
+  background-color: #0077b6;
+  color: white;
+  font-weight: 600;
+}
+
+table.table th,
+table.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #90e0ef;
+}
+
+table.table tbody tr:hover {
+  background-color: #90e0ef;
+  color: #023e8a;
+  cursor: pointer;
+}

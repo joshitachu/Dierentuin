@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fef9ef;
+    color: #03071e;
+    padding: 20px;
+    background-image: url('animals.png'); 
+background-size: cover;
+}
+
+h1 {
+    color: #9d0208;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px #fcbf49;
+}
+
+form {
+    background-color: #fcd5ce;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #6a040f;
+}
+
+input.form-control,
+select.form-control,
+textarea.form-control {
+    border: 2px solid #ffb703;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus,
+select.form-control:focus {
+    border-color: #fb5607;
+    outline: none;
+}
+
+.text-danger {
+    color: #d00000;
+    font-size: 0.9em;
+}
+
+.btn-primary {
+    background-color: #00b4d8;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0077b6;
+}
+
+.btn-secondary {
+    background-color: #80ed99;
+    border: none;
+    color: #023e8a;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #57cc99;
+}

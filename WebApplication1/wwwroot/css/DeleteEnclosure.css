@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f6;
+  color: #720026;
+  margin: 30px;
+  background-image: url('animals.png'); 
+background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #d00000;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #ffccd5;
+}
+
+h3 {
+  text-align: center;
+  color: #9d0208;
+  margin-bottom: 30px;
+}
+
+h4 {
+  color: #9d0208;
+  margin-bottom: 15px;
+}
+
+dl {
+  background-color: #ffc8dd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+dt {
+  font-weight: bold;
+  color: #590d22;
+}
+
+dd {
+  color: #800f2f;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type="submit"].btn-danger {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"].btn-danger:hover {
+  background-color: #d90429;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #3f37c9;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #4361ee;
+}

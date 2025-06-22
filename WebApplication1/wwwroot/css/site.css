@@ -23,7 +23,7 @@ html {
 
 body {
   margin-bottom: 60px;
-  background: url('image.png') no-repeat center center fixed;
+  background: url('animals.png') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;

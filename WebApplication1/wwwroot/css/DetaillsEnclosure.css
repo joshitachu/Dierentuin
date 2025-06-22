@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f9ff;
+  color: #03045e;
+  padding: 30px;
+  background-image: url('animals.png'); 
+background-size: cover;
+}
+
+h1 {
+  color: #0077b6;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #caf0f8;
+}
+
+h4 {
+  color: #0096c7;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+dl {
+  background: #ade8f4;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+dt {
+  font-weight: bold;
+  color: #0077b6;
+}
+
+dd {
+  margin-bottom: 15px;
+  color: #023e8a;
+}
+
+ul {
+  padding-left: 20px;
+  color: #023e8a;
+}
+
+a.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0096c7;
+}
+
+.btn-secondary {
+  background-color: #90e0ef;
+  color: #03045e;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #48cae4;
+}

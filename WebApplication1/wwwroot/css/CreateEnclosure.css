@@ -1,0 +1,93 @@
+form {
+  max-width: 450px;
+  margin: 30px auto;
+  background-color: #f0f9ff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('animals.png'); 
+background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #007acc;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px #90caf9;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+label.control-label {
+  display: block;
+  font-weight: 600;
+  color: #0288d1;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+input.form-control,
+textarea.form-control,
+select.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 2px solid #4fc3f7;
+  border-radius: 6px;
+  background-color: #e1f5fe;
+  color: #01579b;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus {
+  outline: none;
+  border-color: #0288d1;
+  background-color: #b3e5fc;
+  color: #003c8f;
+}
+
+.text-danger {
+  color: #d32f2f;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 4px;
+  display: block;
+}
+
+button.btn-primary {
+  background-color: #0288d1;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+button.btn-primary:hover {
+  background-color: #0277bd;
+}
+
+a.btn-secondary {
+  background-color: #4fc3f7;
+  color: #01579b;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.btn-secondary:hover {
+  background-color: #0288d1;
+  color: white;
+}
+
